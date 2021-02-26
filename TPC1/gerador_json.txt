@@ -1,0 +1,85 @@
+[
+  {
+    ucs: [
+      {
+        "sigla": "PRC",
+        "ano": "2020/2021",
+        "nome": "Processamento e Representação de Conhecimento"
+      },
+      {
+        "sigla": "SPLN",
+        "ano": "2020/2021",
+        "nome": "Scripting no Processamento de Linguagem Natural"
+      },
+      {
+        "sigla": "NoSQL",
+        "ano": "2020/2021",
+        "nome": "Bases de Dados NoSQL"
+      },
+      {
+        "sigla": "SSI",
+        "ano": "2020/2021",
+        "nome": "Segurança de Sistemas de Informáticos"
+      }
+      
+    ],
+    professores: [
+       {
+         "sigla": "jcr",
+         "nome": "José Carlos Ramalho",
+         "ucs": "PRC"
+       },
+       {
+         "sigla": "jj",
+         "nome": "José João Almeida",
+         "ucs": "SPLN"
+       },
+       {
+         "sigla": "hp",
+         "nome": "Hugo Peixoto",
+         "ucs": "NoSQL"
+       },
+       {
+         "sigla": "vff",
+         "nome": "Vitor Francisco Fonte",
+         "ucs": "SSI"
+       },
+    ],
+    alunos: [
+        {
+          'repeat(100)': {
+            id: 'a{{index(+78000)}}',
+            nome: '{{firstName()}} {{surname()}}',
+            ucs(tags) {
+              const ucs = ['PRC', 'SPLN', 'NoSQL', 'SSI'];
+              i= integer(2,4);//Número de UCs aleatório entre 2 e 4
+              res = [];
+              for(j=0;j<i;j++){
+                  if(j!= i-1)
+                  res += ucs[j] + ';';
+                  else res +=ucs[j]; 
+              }
+              return res;
+     	 	}
+      	   }
+        },
+        {
+          'repeat(100)': {//repertir o mesmo processo porque o gerador só aceita um máximo de 100 entidades de cada vez
+            id: 'a{{index(+78100)}}',
+            nome: '{{firstName()}} {{surname()}}',
+            ucs(tags) {
+              const ucs = ['PRC', 'SPLN', 'NoSQL', 'SSI'];
+              i= integer(2,4);
+              res = [];
+              for(j=0;j<i;j++){
+                  if(j!= i-1)
+                  res += ucs[j] + ';';
+                  else res +=ucs[j]; 
+              }
+              return res;
+            }
+           }
+        }
+      ],
+    }
+]

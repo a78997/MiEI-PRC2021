@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "file:E:\Users\Bruno\Desktop\MIEI\PRC21\MiEI-PRC2021\TPC1\pr.dtd">
+<pr>
+    <meta>
+        <keyname>PRC-202021-T1</keyname>
+        <title>TPC nº1 de PRC</title>
+        <subtitle>Gerar dataset em Turtle</subtitle>
+        <bdate>22 de Fevereiro de 2021</bdate>
+        <edate>1 de Março de 2021</edate>
+        <supervisor>
+            <name>José Carlos Ramalho</name>
+            <email>jcr@di.uminho.pt</email>
+            <homepage></homepage>
+        </supervisor>
+    </meta>
+    <workteam>
+        <member>
+            <identifier>A78997</identifier>
+            <name>Bruno José Infante de Sousa</name>
+            <email>a78997@alunos.uminho.pt</email>
+            <photo path="E:\Users\Bruno\Desktop\MIEI\PRC21\MiEI-PRC2021\IMG_20200713_152258 - Cópia.jpg"/>
+        </member>
+    </workteam>
+    <abstract>
+        <p>Neste trabalho prático o objetivo era gerar um dataset em Turtle, de acordo com os requisitos da ontologia desenvolvida na aula.
+           Os requisitos eram a criação de um dataset composto por 4 UC's, 4 docentes e 200 alunos, tendo em conta os relacionamentos previamente definidos.</p>
+        <p>Para isto foi utilizado um gerador de JSON para inicialmente criar o dataset em JSON com todas as entidades pretendidas.</p>
+        <p>O passo seguinte foi desenvolver um notebook <i>Python</i> no <i>JupyterLab</i>  e, através da biblioteca <i>pandas</i>, ler o dataset JSON e converter os dados para Turtle.</p>
+        <p>Finalizada a conversão o último passo foi carregar o dataset desenvolvido para o Protege, de forma a confirmar que as instâncias e os relacionamentos tinham sido bem desenvolvidos.</p>
+    </abstract>
+    <deliverables>
+        <deliverable path="./pr_t1.html">Página HTML - Manifesto</deliverable>
+        <deliverable path="./pr.dtd">Ficheiro DTD - Manifesto</deliverable>
+        <deliverable path="./pr.xsl">Stylesheet - Manifesto</deliverable>
+        <deliverable path="./pr_t1.xml">Documento XML - Manifesto</deliverable>
+        <deliverable path="./gerador_json.txt">Gerador dataset JSON - script</deliverable>
+        <deliverable path="https://next.json-generator.com/">Gerador do dataset - framework</deliverable>
+        <deliverable path="./dataset.json">Dataset JSON</deliverable>
+        <deliverable path="./jsonToTurtle.ipynb">Conversor JSON para Turtle - Python Notebook</deliverable>
+        <deliverable path="./uc_inicial.ttl">Ontologia não povoada - Turtle</deliverable>
+        <deliverable path="./uc_final.ttl">Ontologia povoada com o dataset convertido - Turtle</deliverable>
+    </deliverables>
+</pr>
