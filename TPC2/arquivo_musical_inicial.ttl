@@ -1,0 +1,156 @@
+@prefix : <http://www.di.uminho.pt/prc2021/arquivo-musical#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.di.uminho.pt/prc2021/arquivo-musical> .
+
+<http://www.di.uminho.pt/prc2021/arquivo-musical> rdf:type owl:Ontology ;
+                                                   owl:versionIRI <http://www.di.uminho.pt/prc2021/arquivo-musical/v0> .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.di.uminho.pt/prc2021/arquivo-musical#compôs
+:compôs rdf:type owl:ObjectProperty ;
+        owl:inverseOf :éCompostaPor ;
+        rdfs:domain :Compositor ;
+        rdfs:range :Obra .
+
+
+###  http://www.di.uminho.pt/prc2021/arquivo-musical#temPartitura
+:temPartitura rdf:type owl:ObjectProperty ;
+              owl:inverseOf :éPartituraDe ;
+              rdfs:domain :Instrumento ;
+              rdfs:range :Partitura .
+
+
+###  http://www.di.uminho.pt/prc2021/arquivo-musical#éCompostaPor
+:éCompostaPor rdf:type owl:ObjectProperty ;
+              rdfs:domain :Obra ;
+              rdfs:range :Compositor .
+
+
+###  http://www.di.uminho.pt/prc2021/arquivo-musical#éPartituraDe
+:éPartituraDe rdf:type owl:ObjectProperty ;
+              rdfs:domain :Partitura ;
+              rdfs:range :Instrumento .
+
+
+###  http://www.di.uminho.pt/prc2021/arquivo-musical#éTocadaPor
+:éTocadaPor rdf:type owl:ObjectProperty ;
+            owl:inverseOf :éTocadoEm ;
+            rdfs:domain :Obra ;
+            rdfs:range :Instrumento .
+
+
+###  http://www.di.uminho.pt/prc2021/arquivo-musical#éTocadoEm
+:éTocadoEm rdf:type owl:ObjectProperty ;
+           rdfs:domain :Instrumento ;
+           rdfs:range :Obra .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.di.uminho.pt/prc2021/arquivo-musical#temAfinação
+:temAfinação rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Partitura .
+
+
+###  http://www.di.uminho.pt/prc2021/arquivo-musical#temClave
+:temClave rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Partitura .
+
+
+###  http://www.di.uminho.pt/prc2021/arquivo-musical#temDesignação
+:temDesignação rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Instrumento .
+
+
+###  http://www.di.uminho.pt/prc2021/arquivo-musical#temPath
+:temPath rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Partitura .
+
+
+###  http://www.di.uminho.pt/prc2021/arquivo-musical#temTipo
+:temTipo rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Obra .
+
+
+###  http://www.di.uminho.pt/prc2021/arquivo-musical#temTítulo
+:temTítulo rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Obra .
+
+
+###  http://www.di.uminho.pt/prc2021/arquivo-musical#temVoz
+:temVoz rdf:type owl:DatatypeProperty ;
+        rdfs:domain :Partitura .
+
+
+###  http://www.di.uminho.pt/prc2021/arquivo-musical#éDoTipo
+:éDoTipo rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Partitura .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.di.uminho.pt/prc2021/arquivo-musical#Compositor
+:Compositor rdf:type owl:Class .
+
+
+###  http://www.di.uminho.pt/prc2021/arquivo-musical#Instrumento
+:Instrumento rdf:type owl:Class .
+
+
+###  http://www.di.uminho.pt/prc2021/arquivo-musical#Obra
+:Obra rdf:type owl:Class .
+
+
+###  http://www.di.uminho.pt/prc2021/arquivo-musical#Partitura
+:Partitura rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.di.uminho.pt/prc2021/arquivo-musical#Ilídio_Costa
+:Ilídio_Costa rdf:type owl:NamedIndividual ,
+                       :Compositor ;
+              :compôs :m1 .
+
+
+###  http://www.di.uminho.pt/prc2021/arquivo-musical#instrumento
+:instrumento rdf:type owl:NamedIndividual ,
+                      :Instrumento ;
+             :temPartitura :partitura ;
+             :éTocadoEm :m1 ;
+             :temDesignação "Maestro" .
+
+
+###  http://www.di.uminho.pt/prc2021/arquivo-musical#m1
+:m1 rdf:type owl:NamedIndividual ,
+             :Obra ;
+    :éCompostaPor :Ilídio_Costa ;
+    :éTocadaPor :instrumento ;
+    :temTipo "Marcha de Desfile" ;
+    :temTítulo "Homenagem a J. Serra" .
+
+
+###  http://www.di.uminho.pt/prc2021/arquivo-musical#partitura
+:partitura rdf:type owl:NamedIndividual ,
+                    :Partitura ;
+           :temAfinação "afinação" ;
+           :temClave "clave" ;
+           :temPath "HomenagemJSerra-flauta1.pdf" ;
+           :temVoz "I" ;
+           :éDoTipo "PDF" .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

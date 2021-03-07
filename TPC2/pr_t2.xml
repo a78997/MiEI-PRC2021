@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "file:E:\Users\Bruno\Desktop\MIEI\PRC21\MiEI-PRC2021\TPC1\pr.dtd">
+<pr>
+    <meta>
+        <keyname>PRC-202021-T2</keyname>
+        <title>TPC nº2 de PRC</title>
+        <subtitle>Criar Ontologia e conversor de XML para TTL - Arquivo Musical</subtitle>
+        <bdate>1 de Março de 2021</bdate>
+        <edate>8 de Março de 2021</edate>
+        <supervisor>
+            <name>José Carlos Ramalho</name>
+            <email>jcr@di.uminho.pt</email>
+            <homepage></homepage>
+        </supervisor>
+    </meta>
+    <workteam>
+        <member>
+            <identifier>A78997</identifier>
+            <name>Bruno José Infante de Sousa</name>
+            <email>a78997@alunos.uminho.pt</email>
+            <photo path="E:\Users\Bruno\Desktop\MIEI\PRC21\MiEI-PRC2021\IMG_20200713_152258 - Cópia.jpg"/>
+        </member>
+    </workteam>
+    <abstract>
+        <p>Neste trabalho foi pedido que fosse desenvolvida uma ontologia no <i>Protégé</i> de forma a representar toda a informação disponível no <i>dataset</i> do arquivo musical fornecido.</p>
+        <p>De forma a povoar esta ontologia, foi necessário desenvolver um conversor em XSL de XML para TTL de forma a povoar a ontologia com a informação do <i>dataset</i>.</p>
+        <p>Os ficheiros utilizados para a realização deste trabalho estão disponíveis em baixo, desde a Ontologia desenvolvida, a <i>stylesheet</i> de conversão e a ontologia final já povoada.</p>
+    </abstract>
+    <deliverables>
+        <deliverable path="./pr_t2.html">Página HTML - Manifesto</deliverable>
+        <deliverable path="./pr.dtd">Ficheiro DTD - Manifesto</deliverable>
+        <deliverable path="./pr.xsl">Stylesheet - Manifesto</deliverable>
+        <deliverable path="./pr_t2.xml">Documento XML - Manifesto</deliverable>
+        <deliverable path="arquivo-musica-digital">Arquivo Musical - dataset XML</deliverable>
+        <deliverable path="arquivo_musical_inicial.ttl">Ontologia Inicial - classes, atributos e relacionamentos</deliverable>
+        <deliverable path="arquivo_musical_final.ttl">Ontologia Povoada</deliverable>
+        <deliverable path="xml2ttl_musica.xsl">Conversor XSL de XML para TTL</deliverable>
+    </deliverables>
+</pr>
