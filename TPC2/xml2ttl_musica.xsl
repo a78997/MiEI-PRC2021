@@ -21,8 +21,8 @@
         </xsl:if>
         
         <xsl:for-each select="instrumentos/instrumento">
-            ###  http://www.di.uminho.pt/prc2021/arquivo-musical#<xsl:value-of select="partitura/@path"/>
-            :<xsl:value-of select="partitura/@path"/> rdf:type owl:NamedIndividual ,
+            ###  http://www.di.uminho.pt/prc2021/arquivo-musical#<xsl:value-of select="translate(designacao, ' ','_')"/>
+            :<xsl:value-of select="translate(designacao, ' ','_')"/> rdf:type owl:NamedIndividual ,
             :Instrumento ;
             :temPartitura :partitura_<xsl:value-of select="partitura/@path"/> ;
             :éTocadoEm :<xsl:value-of select="../../@id"/> ;
