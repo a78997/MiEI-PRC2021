@@ -1,0 +1,685 @@
+@prefix : <http://www.di.uminho.pt/prc2021/gestao-condominios#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.di.uminho.pt/prc2021/gestao-condominios> .
+
+<http://www.di.uminho.pt/prc2021/gestao-condominios> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#foiPagoPor
+:foiPagoPor rdf:type owl:ObjectProperty ;
+            owl:inverseOf :pagou ;
+            rdfs:domain :Mês ;
+            rdfs:range :Fração .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#pagou
+:pagou rdf:type owl:ObjectProperty ;
+       rdfs:domain :Fração ;
+       rdfs:range :Mês .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#temOrigem
+:temOrigem rdf:type owl:ObjectProperty ;
+           rdfs:domain :Entrada ;
+           rdfs:range [ rdf:type owl:Class ;
+                        owl:unionOf ( :Fornecedor
+                                      :Fração
+                                    )
+                      ] .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#éFraçãoDe
+:éFraçãoDe rdf:type owl:ObjectProperty ;
+           rdfs:domain :Fração .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#temData
+:temData rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Entrada .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#temDescrição
+:temDescrição rdf:type owl:DatatypeProperty ;
+              rdfs:domain :Entrada .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#temFração
+:temFração rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Fração .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#temMensalidade
+:temMensalidade rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Fração .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#temPermilagem
+:temPermilagem rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Fração .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#temValor
+:temValor rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Entrada .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#éDoTipo
+:éDoTipo rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Entrada .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#Entrada
+:Entrada rdf:type owl:Class .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#Fornecedor
+:Fornecedor rdf:type owl:Class .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#Fração
+:Fração rdf:type owl:Class .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#Mês
+:Mês rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#Abr
+:Abr rdf:type owl:NamedIndividual ,
+              :Mês .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#Ago
+:Ago rdf:type owl:NamedIndividual ,
+              :Mês .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#CGD
+:CGD rdf:type owl:NamedIndividual ,
+              :Fornecedor ;
+     :temOrigem <http://www.di.uminho.pt/prc2021/gestao-condominios#1Esq> ,
+                <http://www.di.uminho.pt/prc2021/gestao-condominios#3Esq> .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#CMB
+:CMB rdf:type owl:NamedIndividual ,
+              :Fornecedor .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#Dez
+:Dez rdf:type owl:NamedIndividual ,
+              :Mês .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#EDP
+:EDP rdf:type owl:NamedIndividual ,
+              :Fornecedor .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#Fev
+:Fev rdf:type owl:NamedIndividual ,
+              :Mês .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#Jan
+:Jan rdf:type owl:NamedIndividual ,
+              :Mês .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#Jul
+:Jul rdf:type owl:NamedIndividual ,
+              :Mês .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#Jun
+:Jun rdf:type owl:NamedIndividual ,
+              :Mês .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#Kone
+:Kone rdf:type owl:NamedIndividual ,
+               :Fornecedor .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#Limpeza
+:Limpeza rdf:type owl:NamedIndividual ,
+                  :Fornecedor .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#Loja
+:Loja rdf:type owl:NamedIndividual ,
+               :Fração ;
+      :temFração "A"^^xsd:string ;
+      :temMensalidade 36.45 ;
+      :temPermilagem 50 .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#Mai
+:Mai rdf:type owl:NamedIndividual ,
+              :Mês .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#Mar
+:Mar rdf:type owl:NamedIndividual ,
+              :Mês .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#Nov
+:Nov rdf:type owl:NamedIndividual ,
+              :Mês .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#Out
+:Out rdf:type owl:NamedIndividual ,
+              :Mês .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#PluriRapel
+:PluriRapel rdf:type owl:NamedIndividual ,
+                     :Fornecedor .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#Serralheiro
+:Serralheiro rdf:type owl:NamedIndividual ,
+                      :Fornecedor .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#Set
+:Set rdf:type owl:NamedIndividual ,
+              :Mês .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#Vizinhos
+:Vizinhos rdf:type owl:NamedIndividual ,
+                   :Fornecedor .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#1Dto
+<http://www.di.uminho.pt/prc2021/gestao-condominios#1Dto> rdf:type owl:NamedIndividual ,
+                                                                   :Fração ;
+                                                          :pagou :Abr ,
+                                                                 :Fev ,
+                                                                 :Jan ,
+                                                                 :Mar ;
+                                                          :temFração "F"^^xsd:string ;
+                                                          :temMensalidade 36.45 ;
+                                                          :temPermilagem 24 .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#1Esq
+<http://www.di.uminho.pt/prc2021/gestao-condominios#1Esq> rdf:type owl:NamedIndividual ,
+                                                                   :Fração ;
+                                                          :pagou :Fev ,
+                                                                 :Jan ,
+                                                                 :Mar ;
+                                                          :temFração "G"^^xsd:string ;
+                                                          :temMensalidade 51.63 ;
+                                                          :temPermilagem 34 .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#2Dto
+<http://www.di.uminho.pt/prc2021/gestao-condominios#2Dto> rdf:type owl:NamedIndividual ,
+                                                                   :Fração ;
+                                                          :temFração "H"^^xsd:string ;
+                                                          :temMensalidade 36.45 ;
+                                                          :temPermilagem 24 .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#2020/001
+<http://www.di.uminho.pt/prc2021/gestao-condominios#2020/001> rdf:type owl:NamedIndividual ,
+                                                                       :Entrada ;
+                                                              :temOrigem :CGD ;
+                                                              :temData "2020-01-04" ;
+                                                              :temDescrição "Manutenção da conta"^^xsd:string ;
+                                                              :temValor 7.28 ;
+                                                              :éDoTipo "Despesa" .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#2020/002
+<http://www.di.uminho.pt/prc2021/gestao-condominios#2020/002> rdf:type owl:NamedIndividual ,
+                                                                       :Entrada ;
+                                                              :temOrigem <http://www.di.uminho.pt/prc2021/gestao-condominios#7Esq> ;
+                                                              :temData "2020-01-06"^^xsd:string ;
+                                                              :temDescrição "Janeiro"^^xsd:string ;
+                                                              :temValor 64.00 ;
+                                                              :éDoTipo "Receita"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#2020/003
+<http://www.di.uminho.pt/prc2021/gestao-condominios#2020/003> rdf:type owl:NamedIndividual ,
+                                                                       :Entrada ;
+                                                              :temOrigem <http://www.di.uminho.pt/prc2021/gestao-condominios#2Dto> ;
+                                                              :temData "2020-01-06"^^xsd:string ;
+                                                              :temDescrição "Abril a Dezembro de 2019"^^xsd:string ;
+                                                              :temValor 406.62 ;
+                                                              :éDoTipo "Receita"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#2020/004
+<http://www.di.uminho.pt/prc2021/gestao-condominios#2020/004> rdf:type owl:NamedIndividual ,
+                                                                       :Entrada ;
+                                                              :temOrigem :EDP ;
+                                                              :temData "2020-01-08"^^xsd:string ;
+                                                              :temDescrição "Luz"^^xsd:string ;
+                                                              :temValor 222.65 ;
+                                                              :éDoTipo "Despesa"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#2020/005
+<http://www.di.uminho.pt/prc2021/gestao-condominios#2020/005> rdf:type owl:NamedIndividual ,
+                                                                       :Entrada ;
+                                                              :temOrigem <http://www.di.uminho.pt/prc2021/gestao-condominios#7Dto> ;
+                                                              :temData "2020-01-16"^^xsd:string ;
+                                                              :temDescrição "Janeiro"^^xsd:string ;
+                                                              :temValor 45.18 ;
+                                                              :éDoTipo "Receita"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#2020/006
+<http://www.di.uminho.pt/prc2021/gestao-condominios#2020/006> rdf:type owl:NamedIndividual ,
+                                                                       :Entrada ;
+                                                              :temOrigem :CGD ;
+                                                              :temData "2020-02-01"^^xsd:string ;
+                                                              :temDescrição "Manutenção da conta"^^xsd:string ;
+                                                              :temValor 7.28 ;
+                                                              :éDoTipo "Despesa"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#2020/007
+<http://www.di.uminho.pt/prc2021/gestao-condominios#2020/007> rdf:type owl:NamedIndividual ,
+                                                                       :Entrada ;
+                                                              :temOrigem <http://www.di.uminho.pt/prc2021/gestao-condominios#5Esq> ;
+                                                              :temData "2020-02-04"^^xsd:string ;
+                                                              :temDescrição "Fevereiro"^^xsd:string ;
+                                                              :temValor 64.00 ;
+                                                              :éDoTipo "Receita"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#2020/008
+<http://www.di.uminho.pt/prc2021/gestao-condominios#2020/008> rdf:type owl:NamedIndividual ,
+                                                                       :Entrada ;
+                                                              :temOrigem <http://www.di.uminho.pt/prc2021/gestao-condominios#7Esq> ;
+                                                              :temData "2020-02-06"^^xsd:string ;
+                                                              :temDescrição "Fevereiro"^^xsd:string ;
+                                                              :temValor 64.00 ;
+                                                              :éDoTipo "Receita"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#2020/009
+<http://www.di.uminho.pt/prc2021/gestao-condominios#2020/009> rdf:type owl:NamedIndividual ,
+                                                                       :Entrada ;
+                                                              :temOrigem :Kone ;
+                                                              :temData "2020-01-20"^^xsd:string ;
+                                                              :temDescrição "Manutenção dos elevadores: 1º trimestre"^^xsd:string ;
+                                                              :temValor 439.77 ;
+                                                              :éDoTipo "Despesa"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#2020/010
+<http://www.di.uminho.pt/prc2021/gestao-condominios#2020/010> rdf:type owl:NamedIndividual ,
+                                                                       :Entrada ;
+                                                              :temOrigem <http://www.di.uminho.pt/prc2021/gestao-condominios#1Esq> ,
+                                                                         <http://www.di.uminho.pt/prc2021/gestao-condominios#3Esq> ;
+                                                              :temData "2020-02-12"^^xsd:string ;
+                                                              :temDescrição "Fevereiro e Março"^^xsd:string ,
+                                                                            "Janeiro"^^xsd:string ;
+                                                              :temValor 384.00 ;
+                                                              :éDoTipo "Receita"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#2020/011
+<http://www.di.uminho.pt/prc2021/gestao-condominios#2020/011> rdf:type owl:NamedIndividual ,
+                                                                       :Entrada ;
+                                                              :temOrigem <http://www.di.uminho.pt/prc2021/gestao-condominios#7Dto> ;
+                                                              :temData "2020-02-20"^^xsd:string ;
+                                                              :temDescrição "Fevereiro"^^xsd:string ;
+                                                              :temValor 45.18 ;
+                                                              :éDoTipo "Receita"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#2020/012
+<http://www.di.uminho.pt/prc2021/gestao-condominios#2020/012> rdf:type owl:NamedIndividual ,
+                                                                       :Entrada ;
+                                                              :temOrigem :Serralheiro ;
+                                                              :temData "2020-02-24"^^xsd:string ;
+                                                              :temDescrição "Concerto do trinco da porta"^^xsd:string ;
+                                                              :temValor 20.00 ;
+                                                              :éDoTipo "Despesa"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#2020/013
+<http://www.di.uminho.pt/prc2021/gestao-condominios#2020/013> rdf:type owl:NamedIndividual ,
+                                                                       :Entrada ;
+                                                              :temOrigem :CMB ;
+                                                              :temData "2020-02-24"^^xsd:string ;
+                                                              :temDescrição "Inspeção dos elevadores"^^xsd:string ;
+                                                              :temValor 174.30 ;
+                                                              :éDoTipo "Despesa"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#2020/014
+<http://www.di.uminho.pt/prc2021/gestao-condominios#2020/014> rdf:type owl:NamedIndividual ,
+                                                                       :Entrada ;
+                                                              :temOrigem <http://www.di.uminho.pt/prc2021/gestao-condominios#1Dto> ;
+                                                              :temData "2020-02-24"^^xsd:string ;
+                                                              :temDescrição "Abril e 13.58 de Maio"^^xsd:string ,
+                                                                            "Acertos: Janeiro"^^xsd:string ,
+                                                                            "Fevereiro"^^xsd:string ,
+                                                                            "Março"^^xsd:string ;
+                                                              :temValor 194.30 ;
+                                                              :éDoTipo "Receita"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#2020/015
+<http://www.di.uminho.pt/prc2021/gestao-condominios#2020/015> rdf:type owl:NamedIndividual ,
+                                                                       :Entrada ;
+                                                              :temOrigem <http://www.di.uminho.pt/prc2021/gestao-condominios#5Dto> ;
+                                                              :temData "2020-03-11"^^xsd:string ;
+                                                              :temDescrição "Janeiro a Junho"^^xsd:string ;
+                                                              :temValor 271.08 ;
+                                                              :éDoTipo "Receita"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#2020/016
+<http://www.di.uminho.pt/prc2021/gestao-condominios#2020/016> rdf:type owl:NamedIndividual ,
+                                                                       :Entrada ;
+                                                              :temOrigem :PluriRapel ;
+                                                              :temData "2020-03-11"^^xsd:string ;
+                                                              :temDescrição "Reparação das fachadas"^^xsd:string ;
+                                                              :temValor 1655.00 ;
+                                                              :éDoTipo "Despesa"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#2020/017
+<http://www.di.uminho.pt/prc2021/gestao-condominios#2020/017> rdf:type owl:NamedIndividual ,
+                                                                       :Entrada ;
+                                                              :temOrigem <http://www.di.uminho.pt/prc2021/gestao-condominios#5Esq> ;
+                                                              :temData "2020-02-26"^^xsd:string ;
+                                                              :temDescrição "Março"^^xsd:string ;
+                                                              :temValor 64.00 ;
+                                                              :éDoTipo "Receita"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#2020/018
+<http://www.di.uminho.pt/prc2021/gestao-condominios#2020/018> rdf:type owl:NamedIndividual ,
+                                                                       :Entrada ;
+                                                              :temOrigem <http://www.di.uminho.pt/prc2021/gestao-condominios#3Dto> ;
+                                                              :temData "2020-02-29"^^xsd:string ;
+                                                              :temDescrição "Janeiro a Dezembro"^^xsd:string ;
+                                                              :temValor 542.16 ;
+                                                              :éDoTipo "Receita"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#2020/019
+<http://www.di.uminho.pt/prc2021/gestao-condominios#2020/019> rdf:type owl:NamedIndividual ,
+                                                                       :Entrada ;
+                                                              :temOrigem :EDP ;
+                                                              :temData "2020-03-04"^^xsd:string ;
+                                                              :temDescrição "Luz"^^xsd:string ;
+                                                              :temValor 236.59 ;
+                                                              :éDoTipo "Despesa"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#2020/020
+<http://www.di.uminho.pt/prc2021/gestao-condominios#2020/020> rdf:type owl:NamedIndividual ,
+                                                                       :Entrada ;
+                                                              :temOrigem <http://www.di.uminho.pt/prc2021/gestao-condominios#7Esq> ;
+                                                              :temData "2020-03-06"^^xsd:string ;
+                                                              :temDescrição "Março"^^xsd:string ;
+                                                              :temValor 64.00 ;
+                                                              :éDoTipo "Receita"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#2020/021
+<http://www.di.uminho.pt/prc2021/gestao-condominios#2020/021> rdf:type owl:NamedIndividual ,
+                                                                       :Entrada ;
+                                                              :temOrigem :CGD ;
+                                                              :temData "2020-03-07"^^xsd:string ;
+                                                              :temDescrição "Manutenção da conta"^^xsd:string ;
+                                                              :temValor 7.28 ;
+                                                              :éDoTipo "Despesa"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#2020/022
+<http://www.di.uminho.pt/prc2021/gestao-condominios#2020/022> rdf:type owl:NamedIndividual ,
+                                                                       :Entrada ;
+                                                              :temOrigem <http://www.di.uminho.pt/prc2021/gestao-condominios#7Dto> ;
+                                                              :temData "2020-03-15"^^xsd:string ;
+                                                              :temDescrição "Março"^^xsd:string ;
+                                                              :temValor 45.18 ;
+                                                              :éDoTipo "Receita"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#2020/023
+<http://www.di.uminho.pt/prc2021/gestao-condominios#2020/023> rdf:type owl:NamedIndividual ,
+                                                                       :Entrada ;
+                                                              :temOrigem <http://www.di.uminho.pt/prc2021/gestao-condominios#5Esq> ;
+                                                              :temData "2020-03-30"^^xsd:string ;
+                                                              :temDescrição "Abril"^^xsd:string ;
+                                                              :temValor 64.00 ;
+                                                              :éDoTipo "Receita"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#2020/024
+<http://www.di.uminho.pt/prc2021/gestao-condominios#2020/024> rdf:type owl:NamedIndividual ,
+                                                                       :Entrada ;
+                                                              :temOrigem :CGD ;
+                                                              :temData "2020-04-04"^^xsd:string ;
+                                                              :temDescrição "Manutenção da conta"^^xsd:string ;
+                                                              :temValor 7.28 ;
+                                                              :éDoTipo "Despesa"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#2020/025
+<http://www.di.uminho.pt/prc2021/gestao-condominios#2020/025> rdf:type owl:NamedIndividual ,
+                                                                       :Entrada ;
+                                                              :temOrigem <http://www.di.uminho.pt/prc2021/gestao-condominios#7Esq> ;
+                                                              :temData "2020-04-06"^^xsd:string ;
+                                                              :temDescrição "Abril"^^xsd:string ;
+                                                              :temValor 64.00 ;
+                                                              :éDoTipo "Receita"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#2020/026
+<http://www.di.uminho.pt/prc2021/gestao-condominios#2020/026> rdf:type owl:NamedIndividual ,
+                                                                       :Entrada ;
+                                                              :temOrigem <http://www.di.uminho.pt/prc2021/gestao-condominios#6Dto> ;
+                                                              :temData "2020-04-07"^^xsd:string ;
+                                                              :temDescrição "Abril a Agosto"^^xsd:string ;
+                                                              :temValor 225.90 ;
+                                                              :éDoTipo "Receita"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#2020/027
+<http://www.di.uminho.pt/prc2021/gestao-condominios#2020/027> rdf:type owl:NamedIndividual ,
+                                                                       :Entrada ;
+                                                              :temOrigem <http://www.di.uminho.pt/prc2021/gestao-condominios#7Dto> ;
+                                                              :temData "2020-04-14"^^xsd:string ;
+                                                              :temDescrição "Abril"^^xsd:string ;
+                                                              :temValor 45.18 ;
+                                                              :éDoTipo "Receita"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#2020/028
+<http://www.di.uminho.pt/prc2021/gestao-condominios#2020/028> rdf:type owl:NamedIndividual ,
+                                                                       :Entrada ;
+                                                              :temOrigem :Vizinhos ;
+                                                              :temData "2020-04-15"^^xsd:string ;
+                                                              :temDescrição "Luz Comum"^^xsd:string ;
+                                                              :temValor 207.98 ;
+                                                              :éDoTipo "Despesa"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#2020/029
+<http://www.di.uminho.pt/prc2021/gestao-condominios#2020/029> rdf:type owl:NamedIndividual ,
+                                                                       :Entrada ;
+                                                              :temOrigem :Limpeza ;
+                                                              :temData "2020-04-15"^^xsd:string ;
+                                                              :temDescrição "Limpeza 2020"^^xsd:string ;
+                                                              :temValor 1080.00 ;
+                                                              :éDoTipo "Despesa"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#2020/030
+<http://www.di.uminho.pt/prc2021/gestao-condominios#2020/030> rdf:type owl:NamedIndividual ,
+                                                                       :Entrada ;
+                                                              :temOrigem <http://www.di.uminho.pt/prc2021/gestao-condominios#4Dto> ;
+                                                              :temData "2020-04-15"^^xsd:string ;
+                                                              :temDescrição "Janeiro a Dezembro"^^xsd:string ;
+                                                              :temValor 542.16 ;
+                                                              :éDoTipo "Receita"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#2020/031
+<http://www.di.uminho.pt/prc2021/gestao-condominios#2020/031> rdf:type owl:NamedIndividual ,
+                                                                       :Entrada ;
+                                                              :temOrigem :Kone ;
+                                                              :temData "2020-04-01"^^xsd:string ;
+                                                              :temDescrição "Manutenção dos elevadores: 2º trimestre"^^xsd:string ;
+                                                              :temValor 439.77 ;
+                                                              :éDoTipo "Despesa"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#3Dto
+<http://www.di.uminho.pt/prc2021/gestao-condominios#3Dto> rdf:type owl:NamedIndividual ,
+                                                                   :Fração ;
+                                                          :pagou :Abr ,
+                                                                 :Ago ,
+                                                                 :Dez ,
+                                                                 :Fev ,
+                                                                 :Jan ,
+                                                                 :Jul ,
+                                                                 :Jun ,
+                                                                 :Mai ,
+                                                                 :Mar ,
+                                                                 :Nov ,
+                                                                 :Out ,
+                                                                 :Set ;
+                                                          :temFração "I"^^xsd:string ;
+                                                          :temMensalidade 36.45 ;
+                                                          :temPermilagem 24 .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#3Esq
+<http://www.di.uminho.pt/prc2021/gestao-condominios#3Esq> rdf:type owl:NamedIndividual ,
+                                                                   :Fração ;
+                                                          :pagou :Fev ,
+                                                                 :Jan ,
+                                                                 :Mar ;
+                                                          :temFração "J"^^xsd:string ;
+                                                          :temMensalidade 51.63 ;
+                                                          :temPermilagem 34 .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#4Dto
+<http://www.di.uminho.pt/prc2021/gestao-condominios#4Dto> rdf:type owl:NamedIndividual ,
+                                                                   :Fração ;
+                                                          :pagou :Abr ,
+                                                                 :Ago ,
+                                                                 :Dez ,
+                                                                 :Fev ,
+                                                                 :Jan ,
+                                                                 :Jun ,
+                                                                 :Mai ,
+                                                                 :Mar ,
+                                                                 :Nov ,
+                                                                 :Out ,
+                                                                 :Set ;
+                                                          :temFração "L"^^xsd:string ;
+                                                          :temMensalidade 36.45 ;
+                                                          :temPermilagem 24 .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#5Dto
+<http://www.di.uminho.pt/prc2021/gestao-condominios#5Dto> rdf:type owl:NamedIndividual ,
+                                                                   :Fração ;
+                                                          :pagou :Abr ,
+                                                                 :Fev ,
+                                                                 :Jan ,
+                                                                 :Mai ,
+                                                                 :Mar ;
+                                                          :temFração "M"^^xsd:string ;
+                                                          :temMensalidade 63.45 ;
+                                                          :temPermilagem 24 .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#5Esq
+<http://www.di.uminho.pt/prc2021/gestao-condominios#5Esq> rdf:type owl:NamedIndividual ,
+                                                                   :Fração ;
+                                                          :pagou :Abr ,
+                                                                 :Fev ,
+                                                                 :Jan ,
+                                                                 :Mar ;
+                                                          :temFração "N"^^xsd:string ;
+                                                          :temMensalidade 51.63 ;
+                                                          :temPermilagem 34 .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#6Dto
+<http://www.di.uminho.pt/prc2021/gestao-condominios#6Dto> rdf:type owl:NamedIndividual ,
+                                                                   :Fração ;
+                                                          :pagou :Abr ,
+                                                                 :Ago ,
+                                                                 :Fev ,
+                                                                 :Jan ,
+                                                                 :Jul ,
+                                                                 :Jun ,
+                                                                 :Mai ,
+                                                                 :Mar ;
+                                                          :temFração "O"^^xsd:string ;
+                                                          :temMensalidade 36.45 ;
+                                                          :temPermilagem 24 .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#7Dto
+<http://www.di.uminho.pt/prc2021/gestao-condominios#7Dto> rdf:type owl:NamedIndividual ,
+                                                                   :Fração ;
+                                                          :pagou :Abr ,
+                                                                 :Fev ,
+                                                                 :Jan ,
+                                                                 :Mar ;
+                                                          :temFração "P"^^xsd:string ;
+                                                          :temMensalidade 36.45 ;
+                                                          :temPermilagem 24 .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#7Esq
+<http://www.di.uminho.pt/prc2021/gestao-condominios#7Esq> rdf:type owl:NamedIndividual ,
+                                                                   :Fração ;
+                                                          :pagou :Abr ,
+                                                                 :Fev ,
+                                                                 :Jan ,
+                                                                 :Mar ;
+                                                          :temFração "Q"^^xsd:string ;
+                                                          :temMensalidade 51.63 ;
+                                                          :temPermilagem 34 .
+
+
+###  http://www.di.uminho.pt/prc2021/gestao-condominios#8Dto
+<http://www.di.uminho.pt/prc2021/gestao-condominios#8Dto> rdf:type owl:NamedIndividual ,
+                                                                   :Fração ;
+                                                          :temFração "R"^^xsd:string ;
+                                                          :temMensalidade 36.45 ;
+                                                          :temPermilagem 24 .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

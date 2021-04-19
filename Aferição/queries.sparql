@@ -1,0 +1,63 @@
+##Queries SPARQL para resolver o exercício
+
+##1 Que entidades (receitas e despesas) estão referenciadas na ontologia?
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX : <http://www.di.uminho.pt/prc2021/gestao-condominios#>
+select ?s where { 
+	?e rdf:type :Entrada .
+    ?e :temOrigem ?s .
+} 
+
+##2 Que frações não pagaram o mês de Abril de 2020?
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX : <http://www.di.uminho.pt/prc2021/gestao-condominios#>
+select ?f where { 
+    :Abr :foiPagoPor ?f .
+} 
+
+select ?f where { 
+    ?f :pagou :Abr .
+} 
+
+##3 Para as despesas, qual o montante por entidade já dispendido?
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX : <http://www.di.uminho.pt/prc2021/gestao-condominios#>
+select ?s (SUM(?v) as ?total) where { 
+	?e rdf:type :Entrada ;
+       :éDoTipo "Despesa" ;
+       :temOrigem ?s ;
+       :temValor ?v .
+}
+Group by ?s
+
+##4 Qual a receita líquida que se pode concluir do mapa de pagamento (contando apenas as mensalidades pagas)?
+##TOTAL
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX : <http://www.di.uminho.pt/prc2021/gestao-condominios#>
+select (Sum(?v) as ?total) where { 
+	?m rdf:type :Mês .
+    ?m :foiPagoPor ?f .
+    ?f :temMensalidade ?v .
+}
+
+##POR MÊS
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX : <http://www.di.uminho.pt/prc2021/gestao-condominios#>
+select ?m (Sum(?v) as ?total) where { 
+	?m rdf:type :Mês .
+    ?m :foiPagoPor ?f .
+    ?f :temMensalidade ?v .
+}
+Group by ?m 
+Order by desc(?total)
+
+##5 Do mapa de pagamento, qual o montante pago por cada uma das frações?
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX : <http://www.di.uminho.pt/prc2021/gestao-condominios#>
+select ?f (Sum(?v) as ?total) where { 
+	?m rdf:type :Mês .
+    ?m :foiPagoPor ?f .
+    ?f :temMensalidade ?v .
+}
+Group by ?f
+Order by ?f
