@@ -1,0 +1,2800 @@
+###  http://www.di.uminho.pt/prc2021/emds#Emily_Terrell
+:Emily_Terrell rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :GDGoma;
+           :pratica :Futebol ;
+           :temEmail "emily.terrell@gdgoma.org" ;
+           :temGénero "F" ;
+           :temIdade 28 ;
+           :temMorada "Clay" ;
+           :temNome "Emily Terrell" ;
+           :éFederado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Futebol
+:Futebol rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :GDGoma .
+
+###  http://www.di.uminho.pt/prc2021/emds#GDGoma
+:GDGoma rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_0
+:emd_0 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Emily_Terrell ;
+   :Data "2020-07-27" ;
+   :Resultado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Medina_Terrell
+:Medina_Hartman rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :AVCfamalicão;
+           :pratica :Triatlo ;
+           :temEmail "medina.hartman@avcfamalicão.name" ;
+           :temGénero "M" ;
+           :temIdade 34 ;
+           :temMorada "Orick" ;
+           :temNome "Medina Hartman" ;
+           :éFederado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Triatlo
+:Triatlo rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :AVCfamalicão .
+
+###  http://www.di.uminho.pt/prc2021/emds#AVCfamalicão
+:AVCfamalicão rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_1
+:emd_1 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Medina_Hartman ;
+   :Data "2019-01-17" ;
+   :Resultado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Andrews_Terrell
+:Andrews_Rivas rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :ABCbraga;
+           :pratica :Badminton ;
+           :temEmail "andrews.rivas@abcbraga.us" ;
+           :temGénero "F" ;
+           :temIdade 24 ;
+           :temMorada "Saticoy" ;
+           :temNome "Andrews Rivas" ;
+           :éFederado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Badminton
+:Badminton rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :ABCbraga .
+
+###  http://www.di.uminho.pt/prc2021/emds#ABCbraga
+:ABCbraga rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_2
+:emd_2 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Andrews_Rivas ;
+   :Data "2020-04-09" ;
+   :Resultado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Marcella_Terrell
+:Marcella_Combs rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :Clube_de_Orientação_do_Minho;
+           :pratica :Ciclismo ;
+           :temEmail "marcella.combs@clube de orientação do minho.com" ;
+           :temGénero "M" ;
+           :temIdade 24 ;
+           :temMorada "Manila" ;
+           :temNome "Marcella Combs" ;
+           :éFederado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Ciclismo
+:Ciclismo rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :Clube_de_Orientação_do_Minho .
+
+###  http://www.di.uminho.pt/prc2021/emds#Clube de Orientação do Minho
+:Clube_de_Orientação_do_Minho rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_3
+:emd_3 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Marcella_Combs ;
+   :Data "2020-06-12" ;
+   :Resultado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Mendoza_Terrell
+:Mendoza_Buckner rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :SCBraga;
+           :pratica :Patinagem ;
+           :temEmail "mendoza.buckner@scbraga.ca" ;
+           :temGénero "M" ;
+           :temIdade 23 ;
+           :temMorada "Brogan" ;
+           :temNome "Mendoza Buckner" ;
+           :éFederado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Patinagem
+:Patinagem rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :SCBraga .
+
+###  http://www.di.uminho.pt/prc2021/emds#SCBraga
+:SCBraga rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_4
+:emd_4 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Mendoza_Buckner ;
+   :Data "2019-09-13" ;
+   :Resultado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Sellers_Terrell
+:Sellers_Copeland rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :Clube_de_Orientação_do_Minho;
+           :pratica :Triatlo ;
+           :temEmail "sellers.copeland@clube de orientação do minho.net" ;
+           :temGénero "F" ;
+           :temIdade 28 ;
+           :temMorada "Spelter" ;
+           :temNome "Sellers Copeland" ;
+           :éFederado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Triatlo
+:Triatlo rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :Clube_de_Orientação_do_Minho .
+
+###  http://www.di.uminho.pt/prc2021/emds#Clube de Orientação do Minho
+:Clube_de_Orientação_do_Minho rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_5
+:emd_5 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Sellers_Copeland ;
+   :Data "2021-04-25" ;
+   :Resultado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Bernard_Terrell
+:Bernard_Stokes rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :AVCfamalicão;
+           :pratica :Badminton ;
+           :temEmail "bernard.stokes@avcfamalicão.biz" ;
+           :temGénero "M" ;
+           :temIdade 34 ;
+           :temMorada "Sussex" ;
+           :temNome "Bernard Stokes" ;
+           :éFederado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Badminton
+:Badminton rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :AVCfamalicão .
+
+###  http://www.di.uminho.pt/prc2021/emds#AVCfamalicão
+:AVCfamalicão rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_6
+:emd_6 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Bernard_Stokes ;
+   :Data "2020-12-29" ;
+   :Resultado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Alfreda_Terrell
+:Alfreda_Raymond rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :ABCbraga;
+           :pratica :Triatlo ;
+           :temEmail "alfreda.raymond@abcbraga.tv" ;
+           :temGénero "M" ;
+           :temIdade 30 ;
+           :temMorada "Sultana" ;
+           :temNome "Alfreda Raymond" ;
+           :éFederado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Triatlo
+:Triatlo rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :ABCbraga .
+
+###  http://www.di.uminho.pt/prc2021/emds#ABCbraga
+:ABCbraga rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_7
+:emd_7 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Alfreda_Raymond ;
+   :Data "2021-03-04" ;
+   :Resultado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Alston_Terrell
+:Alston_Green rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :SCBraga;
+           :pratica :Triatlo ;
+           :temEmail "alston.green@scbraga.biz" ;
+           :temGénero "M" ;
+           :temIdade 29 ;
+           :temMorada "Thornport" ;
+           :temNome "Alston Green" ;
+           :éFederado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Triatlo
+:Triatlo rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :SCBraga .
+
+###  http://www.di.uminho.pt/prc2021/emds#SCBraga
+:SCBraga rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_8
+:emd_8 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Alston_Green ;
+   :Data "2021-05-29" ;
+   :Resultado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Paige_Terrell
+:Paige_Mccarthy rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :ACDRcrespos;
+           :pratica :Parapente ;
+           :temEmail "paige.mccarthy@acdrcrespos.co.uk" ;
+           :temGénero "M" ;
+           :temIdade 32 ;
+           :temMorada "Brandywine" ;
+           :temNome "Paige Mccarthy" ;
+           :éFederado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Parapente
+:Parapente rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :ACDRcrespos .
+
+###  http://www.di.uminho.pt/prc2021/emds#ACDRcrespos
+:ACDRcrespos rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_9
+:emd_9 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Paige_Mccarthy ;
+   :Data "2019-10-27" ;
+   :Resultado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Claudine_Terrell
+:Claudine_Gill rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :ACRroriz;
+           :pratica :Orientação ;
+           :temEmail "claudine.gill@acrroriz.me" ;
+           :temGénero "F" ;
+           :temIdade 33 ;
+           :temMorada "Katonah" ;
+           :temNome "Claudine Gill" ;
+           :éFederado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Orientação
+:Orientação rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :ACRroriz .
+
+###  http://www.di.uminho.pt/prc2021/emds#ACRroriz
+:ACRroriz rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_10
+:emd_10 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Claudine_Gill ;
+   :Data "2020-08-09" ;
+   :Resultado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Summer_Terrell
+:Summer_Calhoun rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :Clube_de_Orientação_do_Minho;
+           :pratica :Esgrima ;
+           :temEmail "summer.calhoun@clube de orientação do minho.info" ;
+           :temGénero "F" ;
+           :temIdade 26 ;
+           :temMorada "National" ;
+           :temNome "Summer Calhoun" ;
+           :éFederado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Esgrima
+:Esgrima rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :Clube_de_Orientação_do_Minho .
+
+###  http://www.di.uminho.pt/prc2021/emds#Clube de Orientação do Minho
+:Clube_de_Orientação_do_Minho rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_11
+:emd_11 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Summer_Calhoun ;
+   :Data "2019-12-03" ;
+   :Resultado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Slater_Terrell
+:Slater_David rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :Vitoria;
+           :pratica :BTT ;
+           :temEmail "slater.david@vitoria.org" ;
+           :temGénero "M" ;
+           :temIdade 25 ;
+           :temMorada "Chicopee" ;
+           :temNome "Slater David" ;
+           :éFederado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#BTT
+:BTT rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :Vitoria .
+
+###  http://www.di.uminho.pt/prc2021/emds#Vitoria
+:Vitoria rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_12
+:emd_12 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Slater_David ;
+   :Data "2020-01-22" ;
+   :Resultado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Ophelia_Terrell
+:Ophelia_Boyd rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :AmigosMontanha;
+           :pratica :Atletismo ;
+           :temEmail "ophelia.boyd@amigosmontanha.name" ;
+           :temGénero "M" ;
+           :temIdade 21 ;
+           :temMorada "Chaparrito" ;
+           :temNome "Ophelia Boyd" ;
+           :éFederado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Atletismo
+:Atletismo rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :AmigosMontanha .
+
+###  http://www.di.uminho.pt/prc2021/emds#AmigosMontanha
+:AmigosMontanha rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_13
+:emd_13 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Ophelia_Boyd ;
+   :Data "2020-09-03" ;
+   :Resultado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Evans_Terrell
+:Evans_Singleton rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :Clube_de_Orientação_do_Minho;
+           :pratica :Orientação ;
+           :temEmail "evans.singleton@clube de orientação do minho.us" ;
+           :temGénero "M" ;
+           :temIdade 25 ;
+           :temMorada "Sunwest" ;
+           :temNome "Evans Singleton" ;
+           :éFederado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Orientação
+:Orientação rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :Clube_de_Orientação_do_Minho .
+
+###  http://www.di.uminho.pt/prc2021/emds#Clube de Orientação do Minho
+:Clube_de_Orientação_do_Minho rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_14
+:emd_14 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Evans_Singleton ;
+   :Data "2019-08-02" ;
+   :Resultado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Church_Terrell
+:Church_Bishop rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :Vitoria;
+           :pratica :Orientação ;
+           :temEmail "church.bishop@vitoria.com" ;
+           :temGénero "M" ;
+           :temIdade 28 ;
+           :temMorada "Vallonia" ;
+           :temNome "Church Bishop" ;
+           :éFederado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Orientação
+:Orientação rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :Vitoria .
+
+###  http://www.di.uminho.pt/prc2021/emds#Vitoria
+:Vitoria rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_15
+:emd_15 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Church_Bishop ;
+   :Data "2020-08-07" ;
+   :Resultado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Woodard_Terrell
+:Woodard_Bennett rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :EDViana;
+           :pratica :SUP ;
+           :temEmail "woodard.bennett@edviana.ca" ;
+           :temGénero "F" ;
+           :temIdade 33 ;
+           :temMorada "Ruckersville" ;
+           :temNome "Woodard Bennett" ;
+           :éFederado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#SUP
+:SUP rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :EDViana .
+
+###  http://www.di.uminho.pt/prc2021/emds#EDViana
+:EDViana rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_16
+:emd_16 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Woodard_Bennett ;
+   :Data "2019-07-13" ;
+   :Resultado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Vasquez_Terrell
+:Vasquez_Michael rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :Vitoria;
+           :pratica :Basquetebol ;
+           :temEmail "vasquez.michael@vitoria.net" ;
+           :temGénero "M" ;
+           :temIdade 27 ;
+           :temMorada "Munjor" ;
+           :temNome "Vasquez Michael" ;
+           :éFederado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Basquetebol
+:Basquetebol rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :Vitoria .
+
+###  http://www.di.uminho.pt/prc2021/emds#Vitoria
+:Vitoria rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_17
+:emd_17 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Vasquez_Michael ;
+   :Data "2019-09-15" ;
+   :Resultado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Holloway_Terrell
+:Holloway_Maxwell rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :AVCfamalicão;
+           :pratica :Ciclismo ;
+           :temEmail "holloway.maxwell@avcfamalicão.biz" ;
+           :temGénero "F" ;
+           :temIdade 30 ;
+           :temMorada "Waikele" ;
+           :temNome "Holloway Maxwell" ;
+           :éFederado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Ciclismo
+:Ciclismo rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :AVCfamalicão .
+
+###  http://www.di.uminho.pt/prc2021/emds#AVCfamalicão
+:AVCfamalicão rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_18
+:emd_18 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Holloway_Maxwell ;
+   :Data "2019-09-04" ;
+   :Resultado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Michele_Terrell
+:Michele_Barber rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :Clube_de_Orientação_do_Minho;
+           :pratica :Karaté ;
+           :temEmail "michele.barber@clube de orientação do minho.tv" ;
+           :temGénero "F" ;
+           :temIdade 27 ;
+           :temMorada "Oberlin" ;
+           :temNome "Michele Barber" ;
+           :éFederado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Karaté
+:Karaté rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :Clube_de_Orientação_do_Minho .
+
+###  http://www.di.uminho.pt/prc2021/emds#Clube de Orientação do Minho
+:Clube_de_Orientação_do_Minho rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_19
+:emd_19 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Michele_Barber ;
+   :Data "2020-02-04" ;
+   :Resultado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Chambers_Terrell
+:Chambers_Burton rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :Vitoria;
+           :pratica :SUP ;
+           :temEmail "chambers.burton@vitoria.biz" ;
+           :temGénero "M" ;
+           :temIdade 25 ;
+           :temMorada "Boling" ;
+           :temNome "Chambers Burton" ;
+           :éFederado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#SUP
+:SUP rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :Vitoria .
+
+###  http://www.di.uminho.pt/prc2021/emds#Vitoria
+:Vitoria rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_20
+:emd_20 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Chambers_Burton ;
+   :Data "2020-03-01" ;
+   :Resultado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Massey_Terrell
+:Massey_Goodman rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :AmigosMontanha;
+           :pratica :BTT ;
+           :temEmail "massey.goodman@amigosmontanha.co.uk" ;
+           :temGénero "M" ;
+           :temIdade 32 ;
+           :temMorada "Garfield" ;
+           :temNome "Massey Goodman" ;
+           :éFederado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#BTT
+:BTT rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :AmigosMontanha .
+
+###  http://www.di.uminho.pt/prc2021/emds#AmigosMontanha
+:AmigosMontanha rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_21
+:emd_21 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Massey_Goodman ;
+   :Data "2021-03-26" ;
+   :Resultado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Klein_Terrell
+:Klein_Cameron rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :SCBraga;
+           :pratica :Futebol ;
+           :temEmail "klein.cameron@scbraga.me" ;
+           :temGénero "F" ;
+           :temIdade 30 ;
+           :temMorada "Twilight" ;
+           :temNome "Klein Cameron" ;
+           :éFederado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Futebol
+:Futebol rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :SCBraga .
+
+###  http://www.di.uminho.pt/prc2021/emds#SCBraga
+:SCBraga rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_22
+:emd_22 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Klein_Cameron ;
+   :Data "2021-02-26" ;
+   :Resultado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Lambert_Terrell
+:Lambert_Mueller rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :ACDRcrespos;
+           :pratica :Basquetebol ;
+           :temEmail "lambert.mueller@acdrcrespos.info" ;
+           :temGénero "M" ;
+           :temIdade 25 ;
+           :temMorada "Oretta" ;
+           :temNome "Lambert Mueller" ;
+           :éFederado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Basquetebol
+:Basquetebol rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :ACDRcrespos .
+
+###  http://www.di.uminho.pt/prc2021/emds#ACDRcrespos
+:ACDRcrespos rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_23
+:emd_23 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Lambert_Mueller ;
+   :Data "2020-07-11" ;
+   :Resultado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Ewing_Terrell
+:Ewing_Drake rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :ACDRcrespos;
+           :pratica :Ciclismo ;
+           :temEmail "ewing.drake@acdrcrespos.org" ;
+           :temGénero "M" ;
+           :temIdade 21 ;
+           :temMorada "Nanafalia" ;
+           :temNome "Ewing Drake" ;
+           :éFederado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Ciclismo
+:Ciclismo rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :ACDRcrespos .
+
+###  http://www.di.uminho.pt/prc2021/emds#ACDRcrespos
+:ACDRcrespos rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_24
+:emd_24 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Ewing_Drake ;
+   :Data "2021-02-15" ;
+   :Resultado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Lester_Terrell
+:Lester_Manning rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :ACDRcrespos;
+           :pratica :Dança ;
+           :temEmail "lester.manning@acdrcrespos.name" ;
+           :temGénero "M" ;
+           :temIdade 35 ;
+           :temMorada "Grandview" ;
+           :temNome "Lester Manning" ;
+           :éFederado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Dança
+:Dança rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :ACDRcrespos .
+
+###  http://www.di.uminho.pt/prc2021/emds#ACDRcrespos
+:ACDRcrespos rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_25
+:emd_25 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Lester_Manning ;
+   :Data "2019-01-04" ;
+   :Resultado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Nina_Terrell
+:Nina_Fowler rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :AmigosMontanha;
+           :pratica :Futebol ;
+           :temEmail "nina.fowler@amigosmontanha.us" ;
+           :temGénero "F" ;
+           :temIdade 30 ;
+           :temMorada "Turah" ;
+           :temNome "Nina Fowler" ;
+           :éFederado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Futebol
+:Futebol rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :AmigosMontanha .
+
+###  http://www.di.uminho.pt/prc2021/emds#AmigosMontanha
+:AmigosMontanha rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_26
+:emd_26 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Nina_Fowler ;
+   :Data "2020-04-16" ;
+   :Resultado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Lynn_Terrell
+:Lynn_Shaw rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :Clube_de_Orientação_do_Minho;
+           :pratica :SUP ;
+           :temEmail "lynn.shaw@clube de orientação do minho.com" ;
+           :temGénero "F" ;
+           :temIdade 26 ;
+           :temMorada "Cutter" ;
+           :temNome "Lynn Shaw" ;
+           :éFederado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#SUP
+:SUP rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :Clube_de_Orientação_do_Minho .
+
+###  http://www.di.uminho.pt/prc2021/emds#Clube de Orientação do Minho
+:Clube_de_Orientação_do_Minho rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_27
+:emd_27 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Lynn_Shaw ;
+   :Data "2020-07-25" ;
+   :Resultado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Betty_Terrell
+:Betty_Blake rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :ABCbraga;
+           :pratica :Badminton ;
+           :temEmail "betty.blake@abcbraga.ca" ;
+           :temGénero "F" ;
+           :temIdade 25 ;
+           :temMorada "Teasdale" ;
+           :temNome "Betty Blake" ;
+           :éFederado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Badminton
+:Badminton rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :ABCbraga .
+
+###  http://www.di.uminho.pt/prc2021/emds#ABCbraga
+:ABCbraga rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_28
+:emd_28 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Betty_Blake ;
+   :Data "2021-01-13" ;
+   :Resultado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Oneill_Terrell
+:Oneill_Roth rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :EDViana;
+           :pratica :Andebol ;
+           :temEmail "oneill.roth@edviana.net" ;
+           :temGénero "M" ;
+           :temIdade 25 ;
+           :temMorada "Graball" ;
+           :temNome "Oneill Roth" ;
+           :éFederado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Andebol
+:Andebol rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :EDViana .
+
+###  http://www.di.uminho.pt/prc2021/emds#EDViana
+:EDViana rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_29
+:emd_29 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Oneill_Roth ;
+   :Data "2020-10-23" ;
+   :Resultado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Roxanne_Terrell
+:Roxanne_Miles rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :Vitoria;
+           :pratica :Badminton ;
+           :temEmail "roxanne.miles@vitoria.biz" ;
+           :temGénero "F" ;
+           :temIdade 26 ;
+           :temMorada "Haring" ;
+           :temNome "Roxanne Miles" ;
+           :éFederado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Badminton
+:Badminton rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :Vitoria .
+
+###  http://www.di.uminho.pt/prc2021/emds#Vitoria
+:Vitoria rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_30
+:emd_30 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Roxanne_Miles ;
+   :Data "2019-06-03" ;
+   :Resultado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Cecelia_Terrell
+:Cecelia_Adams rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :AmigosMontanha;
+           :pratica :Futebol ;
+           :temEmail "cecelia.adams@amigosmontanha.tv" ;
+           :temGénero "F" ;
+           :temIdade 28 ;
+           :temMorada "Fairlee" ;
+           :temNome "Cecelia Adams" ;
+           :éFederado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Futebol
+:Futebol rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :AmigosMontanha .
+
+###  http://www.di.uminho.pt/prc2021/emds#AmigosMontanha
+:AmigosMontanha rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_31
+:emd_31 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Cecelia_Adams ;
+   :Data "2019-04-20" ;
+   :Resultado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Irma_Terrell
+:Irma_Jacobs rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :EDViana;
+           :pratica :Atletismo ;
+           :temEmail "irma.jacobs@edviana.biz" ;
+           :temGénero "F" ;
+           :temIdade 27 ;
+           :temMorada "Driftwood" ;
+           :temNome "Irma Jacobs" ;
+           :éFederado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Atletismo
+:Atletismo rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :EDViana .
+
+###  http://www.di.uminho.pt/prc2021/emds#EDViana
+:EDViana rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_32
+:emd_32 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Irma_Jacobs ;
+   :Data "2019-12-12" ;
+   :Resultado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Angelia_Terrell
+:Angelia_Noel rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :EDViana;
+           :pratica :Orientação ;
+           :temEmail "angelia.noel@edviana.co.uk" ;
+           :temGénero "M" ;
+           :temIdade 34 ;
+           :temMorada "Martell" ;
+           :temNome "Angelia Noel" ;
+           :éFederado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Orientação
+:Orientação rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :EDViana .
+
+###  http://www.di.uminho.pt/prc2021/emds#EDViana
+:EDViana rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_33
+:emd_33 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Angelia_Noel ;
+   :Data "2020-12-23" ;
+   :Resultado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Sallie_Terrell
+:Sallie_Shaffer rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :Clube_de_Orientação_do_Minho;
+           :pratica :Ciclismo ;
+           :temEmail "sallie.shaffer@clube de orientação do minho.me" ;
+           :temGénero "M" ;
+           :temIdade 24 ;
+           :temMorada "Brownlee" ;
+           :temNome "Sallie Shaffer" ;
+           :éFederado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Ciclismo
+:Ciclismo rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :Clube_de_Orientação_do_Minho .
+
+###  http://www.di.uminho.pt/prc2021/emds#Clube de Orientação do Minho
+:Clube_de_Orientação_do_Minho rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_34
+:emd_34 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Sallie_Shaffer ;
+   :Data "2020-06-02" ;
+   :Resultado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Jordan_Terrell
+:Jordan_Bonner rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :Vitoria;
+           :pratica :SUP ;
+           :temEmail "jordan.bonner@vitoria.info" ;
+           :temGénero "F" ;
+           :temIdade 33 ;
+           :temMorada "Northchase" ;
+           :temNome "Jordan Bonner" ;
+           :éFederado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#SUP
+:SUP rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :Vitoria .
+
+###  http://www.di.uminho.pt/prc2021/emds#Vitoria
+:Vitoria rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_35
+:emd_35 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Jordan_Bonner ;
+   :Data "2020-06-22" ;
+   :Resultado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Bartlett_Terrell
+:Bartlett_Sexton rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :GDGoma;
+           :pratica :Atletismo ;
+           :temEmail "bartlett.sexton@gdgoma.org" ;
+           :temGénero "F" ;
+           :temIdade 33 ;
+           :temMorada "Rehrersburg" ;
+           :temNome "Bartlett Sexton" ;
+           :éFederado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Atletismo
+:Atletismo rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :GDGoma .
+
+###  http://www.di.uminho.pt/prc2021/emds#GDGoma
+:GDGoma rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_36
+:emd_36 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Bartlett_Sexton ;
+   :Data "2019-12-17" ;
+   :Resultado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Opal_Terrell
+:Opal_Stewart rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :AVCfamalicão;
+           :pratica :Basquetebol ;
+           :temEmail "opal.stewart@avcfamalicão.name" ;
+           :temGénero "F" ;
+           :temIdade 30 ;
+           :temMorada "Dola" ;
+           :temNome "Opal Stewart" ;
+           :éFederado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Basquetebol
+:Basquetebol rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :AVCfamalicão .
+
+###  http://www.di.uminho.pt/prc2021/emds#AVCfamalicão
+:AVCfamalicão rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_37
+:emd_37 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Opal_Stewart ;
+   :Data "2019-07-27" ;
+   :Resultado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Ola_Terrell
+:Ola_Glover rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :Clube_de_Orientação_do_Minho;
+           :pratica :Equitação ;
+           :temEmail "ola.glover@clube de orientação do minho.us" ;
+           :temGénero "F" ;
+           :temIdade 34 ;
+           :temMorada "Barronett" ;
+           :temNome "Ola Glover" ;
+           :éFederado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Equitação
+:Equitação rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :Clube_de_Orientação_do_Minho .
+
+###  http://www.di.uminho.pt/prc2021/emds#Clube de Orientação do Minho
+:Clube_de_Orientação_do_Minho rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_38
+:emd_38 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Ola_Glover ;
+   :Data "2020-11-26" ;
+   :Resultado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Shelia_Terrell
+:Shelia_York rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :SCBraga;
+           :pratica :Orientação ;
+           :temEmail "shelia.york@scbraga.com" ;
+           :temGénero "M" ;
+           :temIdade 21 ;
+           :temMorada "Escondida" ;
+           :temNome "Shelia York" ;
+           :éFederado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Orientação
+:Orientação rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :SCBraga .
+
+###  http://www.di.uminho.pt/prc2021/emds#SCBraga
+:SCBraga rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_39
+:emd_39 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Shelia_York ;
+   :Data "2019-11-21" ;
+   :Resultado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Raquel_Terrell
+:Raquel_Ratliff rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :ABCbraga;
+           :pratica :Patinagem ;
+           :temEmail "raquel.ratliff@abcbraga.ca" ;
+           :temGénero "F" ;
+           :temIdade 33 ;
+           :temMorada "Goldfield" ;
+           :temNome "Raquel Ratliff" ;
+           :éFederado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Patinagem
+:Patinagem rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :ABCbraga .
+
+###  http://www.di.uminho.pt/prc2021/emds#ABCbraga
+:ABCbraga rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_40
+:emd_40 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Raquel_Ratliff ;
+   :Data "2019-07-31" ;
+   :Resultado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Burke_Terrell
+:Burke_Weeks rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :AmigosMontanha;
+           :pratica :Parapente ;
+           :temEmail "burke.weeks@amigosmontanha.net" ;
+           :temGénero "M" ;
+           :temIdade 29 ;
+           :temMorada "Mapletown" ;
+           :temNome "Burke Weeks" ;
+           :éFederado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Parapente
+:Parapente rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :AmigosMontanha .
+
+###  http://www.di.uminho.pt/prc2021/emds#AmigosMontanha
+:AmigosMontanha rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_41
+:emd_41 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Burke_Weeks ;
+   :Data "2019-09-14" ;
+   :Resultado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Best_Terrell
+:Best_French rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :GDGoma;
+           :pratica :Ciclismo ;
+           :temEmail "best.french@gdgoma.biz" ;
+           :temGénero "M" ;
+           :temIdade 33 ;
+           :temMorada "Longbranch" ;
+           :temNome "Best French" ;
+           :éFederado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Ciclismo
+:Ciclismo rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :GDGoma .
+
+###  http://www.di.uminho.pt/prc2021/emds#GDGoma
+:GDGoma rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_42
+:emd_42 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Best_French ;
+   :Data "2019-04-30" ;
+   :Resultado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Fowler_Terrell
+:Fowler_Alvarez rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :AmigosMontanha;
+           :pratica :Esgrima ;
+           :temEmail "fowler.alvarez@amigosmontanha.tv" ;
+           :temGénero "M" ;
+           :temIdade 31 ;
+           :temMorada "Choctaw" ;
+           :temNome "Fowler Alvarez" ;
+           :éFederado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Esgrima
+:Esgrima rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :AmigosMontanha .
+
+###  http://www.di.uminho.pt/prc2021/emds#AmigosMontanha
+:AmigosMontanha rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_43
+:emd_43 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Fowler_Alvarez ;
+   :Data "2019-10-08" ;
+   :Resultado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Terri_Terrell
+:Terri_Avila rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :AVCfamalicão;
+           :pratica :Esgrima ;
+           :temEmail "terri.avila@avcfamalicão.biz" ;
+           :temGénero "F" ;
+           :temIdade 22 ;
+           :temMorada "Crown" ;
+           :temNome "Terri Avila" ;
+           :éFederado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Esgrima
+:Esgrima rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :AVCfamalicão .
+
+###  http://www.di.uminho.pt/prc2021/emds#AVCfamalicão
+:AVCfamalicão rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_44
+:emd_44 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Terri_Avila ;
+   :Data "2020-03-16" ;
+   :Resultado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Alford_Terrell
+:Alford_Small rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :AVCfamalicão;
+           :pratica :Badminton ;
+           :temEmail "alford.small@avcfamalicão.co.uk" ;
+           :temGénero "F" ;
+           :temIdade 32 ;
+           :temMorada "Alamo" ;
+           :temNome "Alford Small" ;
+           :éFederado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Badminton
+:Badminton rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :AVCfamalicão .
+
+###  http://www.di.uminho.pt/prc2021/emds#AVCfamalicão
+:AVCfamalicão rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_45
+:emd_45 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Alford_Small ;
+   :Data "2019-10-14" ;
+   :Resultado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Key_Terrell
+:Key_Arnold rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :AmigosMontanha;
+           :pratica :Ciclismo ;
+           :temEmail "key.arnold@amigosmontanha.me" ;
+           :temGénero "F" ;
+           :temIdade 27 ;
+           :temMorada "Orason" ;
+           :temNome "Key Arnold" ;
+           :éFederado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Ciclismo
+:Ciclismo rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :AmigosMontanha .
+
+###  http://www.di.uminho.pt/prc2021/emds#AmigosMontanha
+:AmigosMontanha rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_46
+:emd_46 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Key_Arnold ;
+   :Data "2020-03-01" ;
+   :Resultado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Nguyen_Terrell
+:Nguyen_Diaz rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :AmigosMontanha;
+           :pratica :BTT ;
+           :temEmail "nguyen.diaz@amigosmontanha.info" ;
+           :temGénero "F" ;
+           :temIdade 35 ;
+           :temMorada "Watchtower" ;
+           :temNome "Nguyen Diaz" ;
+           :éFederado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#BTT
+:BTT rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :AmigosMontanha .
+
+###  http://www.di.uminho.pt/prc2021/emds#AmigosMontanha
+:AmigosMontanha rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_47
+:emd_47 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Nguyen_Diaz ;
+   :Data "2021-04-16" ;
+   :Resultado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Sherry_Terrell
+:Sherry_Morales rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :AVCfamalicão;
+           :pratica :Atletismo ;
+           :temEmail "sherry.morales@avcfamalicão.org" ;
+           :temGénero "F" ;
+           :temIdade 26 ;
+           :temMorada "Waukeenah" ;
+           :temNome "Sherry Morales" ;
+           :éFederado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Atletismo
+:Atletismo rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :AVCfamalicão .
+
+###  http://www.di.uminho.pt/prc2021/emds#AVCfamalicão
+:AVCfamalicão rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_48
+:emd_48 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Sherry_Morales ;
+   :Data "2021-04-04" ;
+   :Resultado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Crane_Terrell
+:Crane_Ballard rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :Vitoria;
+           :pratica :BTT ;
+           :temEmail "crane.ballard@vitoria.name" ;
+           :temGénero "F" ;
+           :temIdade 25 ;
+           :temMorada "Fedora" ;
+           :temNome "Crane Ballard" ;
+           :éFederado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#BTT
+:BTT rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :Vitoria .
+
+###  http://www.di.uminho.pt/prc2021/emds#Vitoria
+:Vitoria rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_49
+:emd_49 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Crane_Ballard ;
+   :Data "2019-09-11" ;
+   :Resultado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Terry_Terrell
+:Terry_Chaney rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :SCBraga;
+           :pratica :Karaté ;
+           :temEmail "terry.chaney@scbraga.us" ;
+           :temGénero "F" ;
+           :temIdade 23 ;
+           :temMorada "Blanco" ;
+           :temNome "Terry Chaney" ;
+           :éFederado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Karaté
+:Karaté rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :SCBraga .
+
+###  http://www.di.uminho.pt/prc2021/emds#SCBraga
+:SCBraga rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_50
+:emd_50 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Terry_Chaney ;
+   :Data "2020-07-11" ;
+   :Resultado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Sheppard_Terrell
+:Sheppard_Bryant rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :AVCfamalicão;
+           :pratica :Karaté ;
+           :temEmail "sheppard.bryant@avcfamalicão.com" ;
+           :temGénero "M" ;
+           :temIdade 23 ;
+           :temMorada "Brandermill" ;
+           :temNome "Sheppard Bryant" ;
+           :éFederado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Karaté
+:Karaté rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :AVCfamalicão .
+
+###  http://www.di.uminho.pt/prc2021/emds#AVCfamalicão
+:AVCfamalicão rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_51
+:emd_51 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Sheppard_Bryant ;
+   :Data "2019-03-04" ;
+   :Resultado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Janis_Terrell
+:Janis_Mckinney rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :ABCbraga;
+           :pratica :BTT ;
+           :temEmail "janis.mckinney@abcbraga.ca" ;
+           :temGénero "M" ;
+           :temIdade 28 ;
+           :temMorada "Osage" ;
+           :temNome "Janis Mckinney" ;
+           :éFederado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#BTT
+:BTT rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :ABCbraga .
+
+###  http://www.di.uminho.pt/prc2021/emds#ABCbraga
+:ABCbraga rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_52
+:emd_52 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Janis_Mckinney ;
+   :Data "2020-11-03" ;
+   :Resultado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Sue_Terrell
+:Sue_Waters rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :Vitoria;
+           :pratica :Andebol ;
+           :temEmail "sue.waters@vitoria.net" ;
+           :temGénero "M" ;
+           :temIdade 32 ;
+           :temMorada "Carrizo" ;
+           :temNome "Sue Waters" ;
+           :éFederado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Andebol
+:Andebol rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :Vitoria .
+
+###  http://www.di.uminho.pt/prc2021/emds#Vitoria
+:Vitoria rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_53
+:emd_53 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Sue_Waters ;
+   :Data "2020-05-10" ;
+   :Resultado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Cynthia_Terrell
+:Cynthia_Page rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :ACRroriz;
+           :pratica :Equitação ;
+           :temEmail "cynthia.page@acrroriz.biz" ;
+           :temGénero "F" ;
+           :temIdade 22 ;
+           :temMorada "Forestburg" ;
+           :temNome "Cynthia Page" ;
+           :éFederado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Equitação
+:Equitação rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :ACRroriz .
+
+###  http://www.di.uminho.pt/prc2021/emds#ACRroriz
+:ACRroriz rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_54
+:emd_54 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Cynthia_Page ;
+   :Data "2019-05-30" ;
+   :Resultado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Montgomery_Terrell
+:Montgomery_Rhodes rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :Vitoria;
+           :pratica :Atletismo ;
+           :temEmail "montgomery.rhodes@vitoria.tv" ;
+           :temGénero "F" ;
+           :temIdade 31 ;
+           :temMorada "Rivers" ;
+           :temNome "Montgomery Rhodes" ;
+           :éFederado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Atletismo
+:Atletismo rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :Vitoria .
+
+###  http://www.di.uminho.pt/prc2021/emds#Vitoria
+:Vitoria rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_55
+:emd_55 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Montgomery_Rhodes ;
+   :Data "2019-10-14" ;
+   :Resultado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Claire_Terrell
+:Claire_Joyce rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :ACDRcrespos;
+           :pratica :Basquetebol ;
+           :temEmail "claire.joyce@acdrcrespos.biz" ;
+           :temGénero "M" ;
+           :temIdade 25 ;
+           :temMorada "Belgreen" ;
+           :temNome "Claire Joyce" ;
+           :éFederado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Basquetebol
+:Basquetebol rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :ACDRcrespos .
+
+###  http://www.di.uminho.pt/prc2021/emds#ACDRcrespos
+:ACDRcrespos rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_56
+:emd_56 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Claire_Joyce ;
+   :Data "2021-03-22" ;
+   :Resultado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Evangelina_Terrell
+:Evangelina_Key rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :ACDRcrespos;
+           :pratica :Ciclismo ;
+           :temEmail "evangelina.key@acdrcrespos.co.uk" ;
+           :temGénero "M" ;
+           :temIdade 26 ;
+           :temMorada "Whitewater" ;
+           :temNome "Evangelina Key" ;
+           :éFederado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Ciclismo
+:Ciclismo rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :ACDRcrespos .
+
+###  http://www.di.uminho.pt/prc2021/emds#ACDRcrespos
+:ACDRcrespos rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_57
+:emd_57 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Evangelina_Key ;
+   :Data "2021-04-16" ;
+   :Resultado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Effie_Terrell
+:Effie_Gibson rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :ACRroriz;
+           :pratica :Andebol ;
+           :temEmail "effie.gibson@acrroriz.me" ;
+           :temGénero "M" ;
+           :temIdade 33 ;
+           :temMorada "Virgie" ;
+           :temNome "Effie Gibson" ;
+           :éFederado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Andebol
+:Andebol rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :ACRroriz .
+
+###  http://www.di.uminho.pt/prc2021/emds#ACRroriz
+:ACRroriz rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_58
+:emd_58 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Effie_Gibson ;
+   :Data "2020-11-24" ;
+   :Resultado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Maureen_Terrell
+:Maureen_Cobb rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :AmigosMontanha;
+           :pratica :Patinagem ;
+           :temEmail "maureen.cobb@amigosmontanha.info" ;
+           :temGénero "M" ;
+           :temIdade 24 ;
+           :temMorada "Venice" ;
+           :temNome "Maureen Cobb" ;
+           :éFederado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Patinagem
+:Patinagem rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :AmigosMontanha .
+
+###  http://www.di.uminho.pt/prc2021/emds#AmigosMontanha
+:AmigosMontanha rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_59
+:emd_59 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Maureen_Cobb ;
+   :Data "2021-03-16" ;
+   :Resultado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Dee_Terrell
+:Dee_Holman rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :AVCfamalicão;
+           :pratica :Parapente ;
+           :temEmail "dee.holman@avcfamalicão.org" ;
+           :temGénero "F" ;
+           :temIdade 35 ;
+           :temMorada "Brenton" ;
+           :temNome "Dee Holman" ;
+           :éFederado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Parapente
+:Parapente rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :AVCfamalicão .
+
+###  http://www.di.uminho.pt/prc2021/emds#AVCfamalicão
+:AVCfamalicão rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_60
+:emd_60 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Dee_Holman ;
+   :Data "2020-11-22" ;
+   :Resultado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Larson_Terrell
+:Larson_Morin rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :GDGoma;
+           :pratica :Andebol ;
+           :temEmail "larson.morin@gdgoma.name" ;
+           :temGénero "F" ;
+           :temIdade 26 ;
+           :temMorada "Summerset" ;
+           :temNome "Larson Morin" ;
+           :éFederado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Andebol
+:Andebol rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :GDGoma .
+
+###  http://www.di.uminho.pt/prc2021/emds#GDGoma
+:GDGoma rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_61
+:emd_61 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Larson_Morin ;
+   :Data "2019-02-13" ;
+   :Resultado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Ursula_Terrell
+:Ursula_Martinez rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :AmigosMontanha;
+           :pratica :Dança ;
+           :temEmail "ursula.martinez@amigosmontanha.us" ;
+           :temGénero "F" ;
+           :temIdade 32 ;
+           :temMorada "Lorraine" ;
+           :temNome "Ursula Martinez" ;
+           :éFederado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Dança
+:Dança rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :AmigosMontanha .
+
+###  http://www.di.uminho.pt/prc2021/emds#AmigosMontanha
+:AmigosMontanha rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_62
+:emd_62 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Ursula_Martinez ;
+   :Data "2021-01-29" ;
+   :Resultado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#English_Terrell
+:English_Clemons rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :GDGoma;
+           :pratica :Basquetebol ;
+           :temEmail "english.clemons@gdgoma.com" ;
+           :temGénero "M" ;
+           :temIdade 30 ;
+           :temMorada "Ticonderoga" ;
+           :temNome "English Clemons" ;
+           :éFederado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Basquetebol
+:Basquetebol rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :GDGoma .
+
+###  http://www.di.uminho.pt/prc2021/emds#GDGoma
+:GDGoma rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_63
+:emd_63 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :English_Clemons ;
+   :Data "2020-10-10" ;
+   :Resultado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Stella_Terrell
+:Stella_Jackson rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :ACDRcrespos;
+           :pratica :Badminton ;
+           :temEmail "stella.jackson@acdrcrespos.ca" ;
+           :temGénero "F" ;
+           :temIdade 31 ;
+           :temMorada "Kaka" ;
+           :temNome "Stella Jackson" ;
+           :éFederado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Badminton
+:Badminton rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :ACDRcrespos .
+
+###  http://www.di.uminho.pt/prc2021/emds#ACDRcrespos
+:ACDRcrespos rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_64
+:emd_64 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Stella_Jackson ;
+   :Data "2020-10-28" ;
+   :Resultado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Haley_Terrell
+:Haley_Joseph rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :AVCfamalicão;
+           :pratica :Ciclismo ;
+           :temEmail "haley.joseph@avcfamalicão.net" ;
+           :temGénero "F" ;
+           :temIdade 28 ;
+           :temMorada "Brantleyville" ;
+           :temNome "Haley Joseph" ;
+           :éFederado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Ciclismo
+:Ciclismo rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :AVCfamalicão .
+
+###  http://www.di.uminho.pt/prc2021/emds#AVCfamalicão
+:AVCfamalicão rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_65
+:emd_65 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Haley_Joseph ;
+   :Data "2019-05-01" ;
+   :Resultado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Kelsey_Terrell
+:Kelsey_Roberts rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :Vitoria;
+           :pratica :Patinagem ;
+           :temEmail "kelsey.roberts@vitoria.biz" ;
+           :temGénero "M" ;
+           :temIdade 28 ;
+           :temMorada "Morgandale" ;
+           :temNome "Kelsey Roberts" ;
+           :éFederado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Patinagem
+:Patinagem rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :Vitoria .
+
+###  http://www.di.uminho.pt/prc2021/emds#Vitoria
+:Vitoria rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_66
+:emd_66 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Kelsey_Roberts ;
+   :Data "2020-04-09" ;
+   :Resultado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Watson_Terrell
+:Watson_Lynch rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :GDGoma;
+           :pratica :Dança ;
+           :temEmail "watson.lynch@gdgoma.tv" ;
+           :temGénero "F" ;
+           :temIdade 33 ;
+           :temMorada "Fillmore" ;
+           :temNome "Watson Lynch" ;
+           :éFederado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Dança
+:Dança rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :GDGoma .
+
+###  http://www.di.uminho.pt/prc2021/emds#GDGoma
+:GDGoma rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_67
+:emd_67 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Watson_Lynch ;
+   :Data "2019-06-26" ;
+   :Resultado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Chasity_Terrell
+:Chasity_Coffey rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :EDViana;
+           :pratica :Karaté ;
+           :temEmail "chasity.coffey@edviana.biz" ;
+           :temGénero "F" ;
+           :temIdade 23 ;
+           :temMorada "Kersey" ;
+           :temNome "Chasity Coffey" ;
+           :éFederado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Karaté
+:Karaté rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :EDViana .
+
+###  http://www.di.uminho.pt/prc2021/emds#EDViana
+:EDViana rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_68
+:emd_68 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Chasity_Coffey ;
+   :Data "2021-05-14" ;
+   :Resultado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Paula_Terrell
+:Paula_Delaney rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :EDViana;
+           :pratica :Dança ;
+           :temEmail "paula.delaney@edviana.co.uk" ;
+           :temGénero "M" ;
+           :temIdade 29 ;
+           :temMorada "Disautel" ;
+           :temNome "Paula Delaney" ;
+           :éFederado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Dança
+:Dança rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :EDViana .
+
+###  http://www.di.uminho.pt/prc2021/emds#EDViana
+:EDViana rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_69
+:emd_69 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Paula_Delaney ;
+   :Data "2021-02-26" ;
+   :Resultado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Galloway_Terrell
+:Galloway_Sanders rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :ACRroriz;
+           :pratica :Futebol ;
+           :temEmail "galloway.sanders@acrroriz.me" ;
+           :temGénero "M" ;
+           :temIdade 33 ;
+           :temMorada "Allendale" ;
+           :temNome "Galloway Sanders" ;
+           :éFederado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Futebol
+:Futebol rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :ACRroriz .
+
+###  http://www.di.uminho.pt/prc2021/emds#ACRroriz
+:ACRroriz rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_70
+:emd_70 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Galloway_Sanders ;
+   :Data "2019-06-27" ;
+   :Resultado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Tina_Terrell
+:Tina_Blankenship rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :ACDRcrespos;
+           :pratica :SUP ;
+           :temEmail "tina.blankenship@acdrcrespos.info" ;
+           :temGénero "F" ;
+           :temIdade 33 ;
+           :temMorada "Longoria" ;
+           :temNome "Tina Blankenship" ;
+           :éFederado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#SUP
+:SUP rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :ACDRcrespos .
+
+###  http://www.di.uminho.pt/prc2021/emds#ACDRcrespos
+:ACDRcrespos rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_71
+:emd_71 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Tina_Blankenship ;
+   :Data "2021-04-12" ;
+   :Resultado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Whitehead_Terrell
+:Whitehead_Montgomery rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :AVCfamalicão;
+           :pratica :Parapente ;
+           :temEmail "whitehead.montgomery@avcfamalicão.org" ;
+           :temGénero "M" ;
+           :temIdade 34 ;
+           :temMorada "Fairview" ;
+           :temNome "Whitehead Montgomery" ;
+           :éFederado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Parapente
+:Parapente rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :AVCfamalicão .
+
+###  http://www.di.uminho.pt/prc2021/emds#AVCfamalicão
+:AVCfamalicão rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_72
+:emd_72 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Whitehead_Montgomery ;
+   :Data "2021-04-11" ;
+   :Resultado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Dominguez_Terrell
+:Dominguez_Chambers rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :ABCbraga;
+           :pratica :Equitação ;
+           :temEmail "dominguez.chambers@abcbraga.name" ;
+           :temGénero "M" ;
+           :temIdade 35 ;
+           :temMorada "Malott" ;
+           :temNome "Dominguez Chambers" ;
+           :éFederado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Equitação
+:Equitação rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :ABCbraga .
+
+###  http://www.di.uminho.pt/prc2021/emds#ABCbraga
+:ABCbraga rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_73
+:emd_73 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Dominguez_Chambers ;
+   :Data "2021-04-22" ;
+   :Resultado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Booth_Terrell
+:Booth_Eaton rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :SCBraga;
+           :pratica :Triatlo ;
+           :temEmail "booth.eaton@scbraga.us" ;
+           :temGénero "F" ;
+           :temIdade 33 ;
+           :temMorada "Terlingua" ;
+           :temNome "Booth Eaton" ;
+           :éFederado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Triatlo
+:Triatlo rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :SCBraga .
+
+###  http://www.di.uminho.pt/prc2021/emds#SCBraga
+:SCBraga rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_74
+:emd_74 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Booth_Eaton ;
+   :Data "2019-05-23" ;
+   :Resultado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Joanna_Terrell
+:Joanna_Grant rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :AmigosMontanha;
+           :pratica :Parapente ;
+           :temEmail "joanna.grant@amigosmontanha.com" ;
+           :temGénero "F" ;
+           :temIdade 33 ;
+           :temMorada "Noblestown" ;
+           :temNome "Joanna Grant" ;
+           :éFederado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Parapente
+:Parapente rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :AmigosMontanha .
+
+###  http://www.di.uminho.pt/prc2021/emds#AmigosMontanha
+:AmigosMontanha rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_75
+:emd_75 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Joanna_Grant ;
+   :Data "2019-07-14" ;
+   :Resultado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Jeri_Terrell
+:Jeri_Pearson rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :ACRroriz;
+           :pratica :Orientação ;
+           :temEmail "jeri.pearson@acrroriz.ca" ;
+           :temGénero "F" ;
+           :temIdade 29 ;
+           :temMorada "Falmouth" ;
+           :temNome "Jeri Pearson" ;
+           :éFederado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Orientação
+:Orientação rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :ACRroriz .
+
+###  http://www.di.uminho.pt/prc2021/emds#ACRroriz
+:ACRroriz rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_76
+:emd_76 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Jeri_Pearson ;
+   :Data "2019-03-28" ;
+   :Resultado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Sanchez_Terrell
+:Sanchez_Mcgee rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :ACDRcrespos;
+           :pratica :Ciclismo ;
+           :temEmail "sanchez.mcgee@acdrcrespos.net" ;
+           :temGénero "F" ;
+           :temIdade 31 ;
+           :temMorada "Bascom" ;
+           :temNome "Sanchez Mcgee" ;
+           :éFederado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Ciclismo
+:Ciclismo rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :ACDRcrespos .
+
+###  http://www.di.uminho.pt/prc2021/emds#ACDRcrespos
+:ACDRcrespos rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_77
+:emd_77 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Sanchez_Mcgee ;
+   :Data "2021-05-13" ;
+   :Resultado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Magdalena_Terrell
+:Magdalena_Francis rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :ACDRcrespos;
+           :pratica :Esgrima ;
+           :temEmail "magdalena.francis@acdrcrespos.biz" ;
+           :temGénero "M" ;
+           :temIdade 27 ;
+           :temMorada "Fostoria" ;
+           :temNome "Magdalena Francis" ;
+           :éFederado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Esgrima
+:Esgrima rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :ACDRcrespos .
+
+###  http://www.di.uminho.pt/prc2021/emds#ACDRcrespos
+:ACDRcrespos rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_78
+:emd_78 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Magdalena_Francis ;
+   :Data "2019-12-02" ;
+   :Resultado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Morris_Terrell
+:Morris_Poole rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :AVCfamalicão;
+           :pratica :Badminton ;
+           :temEmail "morris.poole@avcfamalicão.tv" ;
+           :temGénero "F" ;
+           :temIdade 34 ;
+           :temMorada "Steinhatchee" ;
+           :temNome "Morris Poole" ;
+           :éFederado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Badminton
+:Badminton rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :AVCfamalicão .
+
+###  http://www.di.uminho.pt/prc2021/emds#AVCfamalicão
+:AVCfamalicão rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_79
+:emd_79 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Morris_Poole ;
+   :Data "2021-05-19" ;
+   :Resultado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Rodriguez_Terrell
+:Rodriguez_Gonzalez rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :GDGoma;
+           :pratica :Triatlo ;
+           :temEmail "rodriguez.gonzalez@gdgoma.biz" ;
+           :temGénero "M" ;
+           :temIdade 25 ;
+           :temMorada "Coaldale" ;
+           :temNome "Rodriguez Gonzalez" ;
+           :éFederado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Triatlo
+:Triatlo rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :GDGoma .
+
+###  http://www.di.uminho.pt/prc2021/emds#GDGoma
+:GDGoma rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_80
+:emd_80 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Rodriguez_Gonzalez ;
+   :Data "2021-02-16" ;
+   :Resultado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Christine_Terrell
+:Christine_Rice rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :GDGoma;
+           :pratica :Orientação ;
+           :temEmail "christine.rice@gdgoma.co.uk" ;
+           :temGénero "M" ;
+           :temIdade 33 ;
+           :temMorada "Hayes" ;
+           :temNome "Christine Rice" ;
+           :éFederado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Orientação
+:Orientação rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :GDGoma .
+
+###  http://www.di.uminho.pt/prc2021/emds#GDGoma
+:GDGoma rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_81
+:emd_81 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Christine_Rice ;
+   :Data "2021-05-18" ;
+   :Resultado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Valdez_Terrell
+:Valdez_Harper rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :AmigosMontanha;
+           :pratica :Karaté ;
+           :temEmail "valdez.harper@amigosmontanha.me" ;
+           :temGénero "F" ;
+           :temIdade 33 ;
+           :temMorada "Jacksonwald" ;
+           :temNome "Valdez Harper" ;
+           :éFederado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Karaté
+:Karaté rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :AmigosMontanha .
+
+###  http://www.di.uminho.pt/prc2021/emds#AmigosMontanha
+:AmigosMontanha rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_82
+:emd_82 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Valdez_Harper ;
+   :Data "2020-11-10" ;
+   :Resultado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Berta_Terrell
+:Berta_Clay rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :Clube_de_Orientação_do_Minho;
+           :pratica :Atletismo ;
+           :temEmail "berta.clay@clube de orientação do minho.info" ;
+           :temGénero "M" ;
+           :temIdade 29 ;
+           :temMorada "Barclay" ;
+           :temNome "Berta Clay" ;
+           :éFederado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Atletismo
+:Atletismo rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :Clube_de_Orientação_do_Minho .
+
+###  http://www.di.uminho.pt/prc2021/emds#Clube de Orientação do Minho
+:Clube_de_Orientação_do_Minho rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_83
+:emd_83 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Berta_Clay ;
+   :Data "2021-04-24" ;
+   :Resultado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Bonnie_Terrell
+:Bonnie_Sandoval rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :Clube_de_Orientação_do_Minho;
+           :pratica :Equitação ;
+           :temEmail "bonnie.sandoval@clube de orientação do minho.org" ;
+           :temGénero "M" ;
+           :temIdade 22 ;
+           :temMorada "Shaft" ;
+           :temNome "Bonnie Sandoval" ;
+           :éFederado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Equitação
+:Equitação rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :Clube_de_Orientação_do_Minho .
+
+###  http://www.di.uminho.pt/prc2021/emds#Clube de Orientação do Minho
+:Clube_de_Orientação_do_Minho rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_84
+:emd_84 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Bonnie_Sandoval ;
+   :Data "2019-10-18" ;
+   :Resultado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Stein_Terrell
+:Stein_Wiggins rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :EDViana;
+           :pratica :Atletismo ;
+           :temEmail "stein.wiggins@edviana.name" ;
+           :temGénero "F" ;
+           :temIdade 35 ;
+           :temMorada "Rosine" ;
+           :temNome "Stein Wiggins" ;
+           :éFederado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Atletismo
+:Atletismo rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :EDViana .
+
+###  http://www.di.uminho.pt/prc2021/emds#EDViana
+:EDViana rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_85
+:emd_85 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Stein_Wiggins ;
+   :Data "2020-11-24" ;
+   :Resultado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Tanya_Terrell
+:Tanya_Mcclain rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :GDGoma;
+           :pratica :SUP ;
+           :temEmail "tanya.mcclain@gdgoma.us" ;
+           :temGénero "M" ;
+           :temIdade 26 ;
+           :temMorada "Fivepointville" ;
+           :temNome "Tanya Mcclain" ;
+           :éFederado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#SUP
+:SUP rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :GDGoma .
+
+###  http://www.di.uminho.pt/prc2021/emds#GDGoma
+:GDGoma rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_86
+:emd_86 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Tanya_Mcclain ;
+   :Data "2020-12-08" ;
+   :Resultado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Perry_Terrell
+:Perry_Sanford rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :Vitoria;
+           :pratica :Atletismo ;
+           :temEmail "perry.sanford@vitoria.com" ;
+           :temGénero "M" ;
+           :temIdade 32 ;
+           :temMorada "Albany" ;
+           :temNome "Perry Sanford" ;
+           :éFederado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Atletismo
+:Atletismo rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :Vitoria .
+
+###  http://www.di.uminho.pt/prc2021/emds#Vitoria
+:Vitoria rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_87
+:emd_87 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Perry_Sanford ;
+   :Data "2021-02-23" ;
+   :Resultado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Maxine_Terrell
+:Maxine_Rutledge rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :AmigosMontanha;
+           :pratica :Badminton ;
+           :temEmail "maxine.rutledge@amigosmontanha.ca" ;
+           :temGénero "M" ;
+           :temIdade 33 ;
+           :temMorada "Caberfae" ;
+           :temNome "Maxine Rutledge" ;
+           :éFederado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Badminton
+:Badminton rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :AmigosMontanha .
+
+###  http://www.di.uminho.pt/prc2021/emds#AmigosMontanha
+:AmigosMontanha rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_88
+:emd_88 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Maxine_Rutledge ;
+   :Data "2019-10-10" ;
+   :Resultado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Tucker_Terrell
+:Tucker_Morse rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :SCBraga;
+           :pratica :Badminton ;
+           :temEmail "tucker.morse@scbraga.net" ;
+           :temGénero "M" ;
+           :temIdade 26 ;
+           :temMorada "Tyhee" ;
+           :temNome "Tucker Morse" ;
+           :éFederado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Badminton
+:Badminton rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :SCBraga .
+
+###  http://www.di.uminho.pt/prc2021/emds#SCBraga
+:SCBraga rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_89
+:emd_89 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Tucker_Morse ;
+   :Data "2020-07-01" ;
+   :Resultado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Thelma_Terrell
+:Thelma_Schmidt rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :ACRroriz;
+           :pratica :Badminton ;
+           :temEmail "thelma.schmidt@acrroriz.biz" ;
+           :temGénero "M" ;
+           :temIdade 23 ;
+           :temMorada "Greenfields" ;
+           :temNome "Thelma Schmidt" ;
+           :éFederado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Badminton
+:Badminton rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :ACRroriz .
+
+###  http://www.di.uminho.pt/prc2021/emds#ACRroriz
+:ACRroriz rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_90
+:emd_90 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Thelma_Schmidt ;
+   :Data "2020-05-17" ;
+   :Resultado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Charles_Terrell
+:Charles_Kim rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :ACDRcrespos;
+           :pratica :BTT ;
+           :temEmail "charles.kim@acdrcrespos.tv" ;
+           :temGénero "F" ;
+           :temIdade 24 ;
+           :temMorada "Bennett" ;
+           :temNome "Charles Kim" ;
+           :éFederado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#BTT
+:BTT rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :ACDRcrespos .
+
+###  http://www.di.uminho.pt/prc2021/emds#ACDRcrespos
+:ACDRcrespos rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_91
+:emd_91 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Charles_Kim ;
+   :Data "2020-03-24" ;
+   :Resultado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Duncan_Terrell
+:Duncan_Davidson rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :AmigosMontanha;
+           :pratica :Karaté ;
+           :temEmail "duncan.davidson@amigosmontanha.biz" ;
+           :temGénero "F" ;
+           :temIdade 35 ;
+           :temMorada "Cedarville" ;
+           :temNome "Duncan Davidson" ;
+           :éFederado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Karaté
+:Karaté rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :AmigosMontanha .
+
+###  http://www.di.uminho.pt/prc2021/emds#AmigosMontanha
+:AmigosMontanha rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_92
+:emd_92 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Duncan_Davidson ;
+   :Data "2020-01-27" ;
+   :Resultado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Gertrude_Terrell
+:Gertrude_Dillon rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :ACRroriz;
+           :pratica :Badminton ;
+           :temEmail "gertrude.dillon@acrroriz.co.uk" ;
+           :temGénero "F" ;
+           :temIdade 27 ;
+           :temMorada "Oneida" ;
+           :temNome "Gertrude Dillon" ;
+           :éFederado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Badminton
+:Badminton rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :ACRroriz .
+
+###  http://www.di.uminho.pt/prc2021/emds#ACRroriz
+:ACRroriz rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_93
+:emd_93 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Gertrude_Dillon ;
+   :Data "2019-04-07" ;
+   :Resultado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Brennan_Terrell
+:Brennan_Santana rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :Vitoria;
+           :pratica :BTT ;
+           :temEmail "brennan.santana@vitoria.me" ;
+           :temGénero "F" ;
+           :temIdade 29 ;
+           :temMorada "Villarreal" ;
+           :temNome "Brennan Santana" ;
+           :éFederado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#BTT
+:BTT rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :Vitoria .
+
+###  http://www.di.uminho.pt/prc2021/emds#Vitoria
+:Vitoria rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_94
+:emd_94 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Brennan_Santana ;
+   :Data "2019-02-06" ;
+   :Resultado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Ball_Terrell
+:Ball_Barlow rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :AmigosMontanha;
+           :pratica :Parapente ;
+           :temEmail "ball.barlow@amigosmontanha.info" ;
+           :temGénero "F" ;
+           :temIdade 28 ;
+           :temMorada "Hobucken" ;
+           :temNome "Ball Barlow" ;
+           :éFederado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Parapente
+:Parapente rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :AmigosMontanha .
+
+###  http://www.di.uminho.pt/prc2021/emds#AmigosMontanha
+:AmigosMontanha rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_95
+:emd_95 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Ball_Barlow ;
+   :Data "2020-11-09" ;
+   :Resultado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Oneil_Terrell
+:Oneil_Baxter rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :Clube_de_Orientação_do_Minho;
+           :pratica :Triatlo ;
+           :temEmail "oneil.baxter@clube de orientação do minho.org" ;
+           :temGénero "F" ;
+           :temIdade 24 ;
+           :temMorada "Sanders" ;
+           :temNome "Oneil Baxter" ;
+           :éFederado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Triatlo
+:Triatlo rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :Clube_de_Orientação_do_Minho .
+
+###  http://www.di.uminho.pt/prc2021/emds#Clube de Orientação do Minho
+:Clube_de_Orientação_do_Minho rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_96
+:emd_96 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Oneil_Baxter ;
+   :Data "2020-05-10" ;
+   :Resultado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Helena_Terrell
+:Helena_Mayo rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :Vitoria;
+           :pratica :Andebol ;
+           :temEmail "helena.mayo@vitoria.name" ;
+           :temGénero "F" ;
+           :temIdade 25 ;
+           :temMorada "Bend" ;
+           :temNome "Helena Mayo" ;
+           :éFederado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Andebol
+:Andebol rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :Vitoria .
+
+###  http://www.di.uminho.pt/prc2021/emds#Vitoria
+:Vitoria rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_97
+:emd_97 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Helena_Mayo ;
+   :Data "2020-10-09" ;
+   :Resultado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Martin_Terrell
+:Martin_Brewer rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :ACRroriz;
+           :pratica :Patinagem ;
+           :temEmail "martin.brewer@acrroriz.us" ;
+           :temGénero "F" ;
+           :temIdade 31 ;
+           :temMorada "Taycheedah" ;
+           :temNome "Martin Brewer" ;
+           :éFederado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Patinagem
+:Patinagem rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :ACRroriz .
+
+###  http://www.di.uminho.pt/prc2021/emds#ACRroriz
+:ACRroriz rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_98
+:emd_98 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Martin_Brewer ;
+   :Data "2021-05-10" ;
+   :Resultado "True"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Wilder_Terrell
+:Wilder_Greene rdf:type owl:NamedIndividual ,
+                    :Atleta ;
+           :pertenceAoClube :Vitoria;
+           :pratica :Badminton ;
+           :temEmail "wilder.greene@vitoria.com" ;
+           :temGénero "M" ;
+           :temIdade 34 ;
+           :temMorada "Heil" ;
+           :temNome "Wilder Greene" ;
+           :éFederado "False"^^xsd:boolean .
+
+###  http://www.di.uminho.pt/prc2021/emds#Badminton
+:Badminton rdf:type owl:NamedIndividual ,
+              :Modalidade ;
+     :éModalidadeDe :Vitoria .
+
+###  http://www.di.uminho.pt/prc2021/emds#Vitoria
+:Vitoria rdf:type owl:NamedIndividual ,
+            :Clube .
+
+###  http://www.di.uminho.pt/prc2021/emds#emd_99
+:emd_99 rdf:type owl:NamedIndividual ,
+            :EMD ;
+   :éExameDe :Wilder_Greene ;
+   :Data "2019-10-13" ;
+   :Resultado "False"^^xsd:boolean .
+

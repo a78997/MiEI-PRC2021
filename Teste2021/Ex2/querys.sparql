@@ -1,0 +1,29 @@
+## Relação Irmão
+PREFIX : <http://prc.di.uminho.pt/2021/myfamily#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+Construct{
+ ?a :Irmão ?b .   
+}where { 
+    ?a :temProgenitor ?m .
+    ?b :temProgenitor ?m .
+} 
+## Relação Bisavô
+Construct{
+ ?a :temBisavô ?avo .
+}where { 
+    ?a :temProgenitor ?m .
+    ?m :temPai ?avo .
+} 
+
+##relação Descendentes
+
+## relação Primos
+Construct{
+ ?a :éPrimo ?b.
+}where { 
+    ?a :temProgenitor ?m .
+    ?b :temProgenitor ?n .
+    ?m :temProgenitor ?p .
+    ?n :temProgenitor ?p .
+}
