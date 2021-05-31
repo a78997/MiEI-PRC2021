@@ -73,5 +73,16 @@ Order by ?n`
   return result 
 });
 
+router.get('/api/modalidades/:id', async function(req, res, next) {
+  var myquery = `select ?e where { 
+    ?e a :EMD .
+    ?e :éExameDe ?a .
+    ?a a :Atleta .
+    ?a :pratica :${req.params.id} .
+} `
+  var result = await gdb.execQuery(myquery);
+  return result 
+});
+
 
 module.exports = router;
