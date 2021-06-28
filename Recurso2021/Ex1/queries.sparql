@@ -1,0 +1,42 @@
+#1 Quantos filmes estão registados? 28782
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://www.di.uminho.pt/prc2021/cinema-americano#>
+select (Count(?e) as ?numFilmes) where { 
+    ?e a :Filme
+} 
+
+#2 Quantos filmes foram realizados em 1994? 292
+select (Count(?e) as ?numFilmes) where { 
+    ?e a :Filme .
+    ?e :ano 1994 .
+} 
+
+#3 Quantos filmes tiveram a participação de Dan Aykroyd? 41
+select (Count(?e) as ?numFilmes) where { 
+    ?e a :Filme .
+    ?e :éRealizadoPor :Dan_Aykroyd .
+} 
+#4 Qual a distribuição dos filmes por ano?
+select ?ano (Count(?e) as ?numFilmes) where { 
+    ?e a :Filme .
+    ?e :ano ?ano .
+} 
+group by (?ano)
+order by ?ano
+
+#5 Qual a distribuição de filmes por género?
+select ?g (Count(?e) as ?numFilmes) where { 
+    ?e a :Filme .
+    ?e :temGénero ?g .
+} 
+group by (?g)
+order by ?g
+
+#6 Quais os títulos dos filmes, em ordem alfabética, que têm a participação de Keanu Reeves?
+select ?t where { 
+    ?e a :Filme .
+    ?e :éRealizadoPor :Keanu_Reeves .
+    ?e :título ?t
+} 
+Order by ?t

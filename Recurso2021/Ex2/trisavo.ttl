@@ -1,0 +1,32 @@
+@prefix : <http://prc.di.uminho.pt/2021/myfamily#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf4j: <http://rdf4j.org/schema/rdf4j#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+:Emília_Esteves :trisavo :Ana_Margarida_Ribeiro_Leite_1980, :Henrique_Miguel_Cabrita_de_Araújo_Leite_1971,
+    :Isabel_Maria_Cabrita_de_Araújo_Leite_1971, :José_Carlos_Leite_Ramalho_1967, :Maria_Helena_Leite_Ramalho_1968,
+    :Teresa_Maria_Ribeiro_Leite_1985 .
+
+:José_Maria_Esteves :trisavo :Ana_Margarida_Ribeiro_Leite_1980, :Henrique_Miguel_Cabrita_de_Araújo_Leite_1971,
+    :Isabel_Maria_Cabrita_de_Araújo_Leite_1971, :José_Carlos_Leite_Ramalho_1967, :Maria_Helena_Leite_Ramalho_1968,
+    :Teresa_Maria_Ribeiro_Leite_1985 .
+
+:Maria_das_Dores_Fernandes_de_Brito :trisavo :Ana_Margarida_Ribeiro_Leite_1980, :Henrique_Miguel_Cabrita_de_Araújo_Leite_1971,
+    :Isabel_Maria_Cabrita_de_Araújo_Leite_1971, :José_Carlos_Leite_Ramalho_1967, :Maria_Helena_Leite_Ramalho_1968,
+    :Teresa_Maria_Ribeiro_Leite_1985 .
+
+:José_Emílio_de_Araújo :trisavo :Ana_Margarida_Ribeiro_Leite_1980, :Henrique_Miguel_Cabrita_de_Araújo_Leite_1971,
+    :Isabel_Maria_Cabrita_de_Araújo_Leite_1971, :José_Carlos_Leite_Ramalho_1967, :Maria_Helena_Leite_Ramalho_1968,
+    :Teresa_Maria_Ribeiro_Leite_1985 .
+
+:Maria_Gonçalves_de_Azevedo :trisavo :José_Carlos_Leite_Ramalho_1967, :Maria_Helena_Leite_Ramalho_1968 .
+
+:José_Francisco_Ramos_Mouco :trisavo :José_Carlos_Leite_Ramalho_1967, :Maria_Helena_Leite_Ramalho_1968 .
+
+:António_da_Silva_Ramalho :trisavo :José_Carlos_Leite_Ramalho_1967, :Maria_Helena_Leite_Ramalho_1968 .
+
+:Maria_Dias_dos_Reis :trisavo :José_Carlos_Leite_Ramalho_1967, :Maria_Helena_Leite_Ramalho_1968 .

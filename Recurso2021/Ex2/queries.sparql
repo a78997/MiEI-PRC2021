@@ -1,0 +1,49 @@
+#Relação TIO
+CONSTRUCT {
+    ?tio :éTio ?p1.
+ }
+ WHERE {
+    ?p1 :temProgenitor ?pais.
+    ?tio :temProgenitor ?avos.
+	?pais :temProgenitor ?avos.
+    filter (?tio != ?pai)
+}
+
+#Trisavo
+CONSTRUCT {
+    ?trisavo :trisavo ?p .
+
+} WHERE {
+    ?p :temProgenitor ?pai .
+    ?pai :temProgenitor ?avo .
+    ?avo :temProgenitor ?bisavo .
+    ?bisavo :temProgenitor ?trisavo
+
+}
+
+#Ascendente
+CONSTRUCT {
+    ?p2 :eAscendente ?p1 .
+
+} WHERE {
+    ?p2 :eProgenitorDe+ ?p1 .
+}
+
+#Sexo
+CONSTRUCT {
+    ?mãe :sexo "F" . 
+    ?pai :sexo "M" .
+
+} WHERE {
+    ?p1 :temMae ?mãe .
+    ?p2 :temPai ?pai .
+}
+
+#Relação com JCR
+
+CONSTRUCT {
+    :José_Carlos_Leite_Ramalho_1967 :temRelacaoCom ?indivíduoX .
+
+} WHERE {
+    ?indivíduoX ?pro :José_Carlos_Leite_Ramalho_1967 .
+}

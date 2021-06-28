@@ -1,0 +1,148 @@
+@prefix : <http://prc.di.uminho.pt/2021/myfamily#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf4j: <http://rdf4j.org/schema/rdf4j#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+:Custódia_Azevedo_1867 :eAscendente :Abílio_da_Silva_Ramalho, :Ana_da_Silva_Ramalho,
+    :António_da_Silva_Ramalho_1904, :Arminda_da_Silva_Ramalho, :Ezequiel_da_Silva_Ramalho,
+    :Generosa_da_Silva_Ramalho, :Ilda_dos_Santos_Ramalho_1949, :José_dos_Santos_Ramalho_1942,
+    :Manuel_Carlos_dos_Santos_Ramalho, :Manuel_Fernando_dos_Santos_Ramalho, :Maria_Flora_dos_Santos_Ramalho_,
+    :José_Carlos_Leite_Ramalho_1967, :Maria_Helena_Leite_Ramalho_1968 .
+
+:Manuel_da_Silva_Ramalho_1866 :eAscendente :Abílio_da_Silva_Ramalho, :Ana_da_Silva_Ramalho,
+    :António_da_Silva_Ramalho_1904, :Arminda_da_Silva_Ramalho, :Ezequiel_da_Silva_Ramalho,
+    :Generosa_da_Silva_Ramalho, :Ilda_dos_Santos_Ramalho_1949, :José_dos_Santos_Ramalho_1942,
+    :Manuel_Carlos_dos_Santos_Ramalho, :Manuel_Fernando_dos_Santos_Ramalho, :Maria_Flora_dos_Santos_Ramalho_,
+    :José_Carlos_Leite_Ramalho_1967, :Maria_Helena_Leite_Ramalho_1968 .
+
+:Maria_Araújo_1884 :eAscendente :Albina_Esteves_de_Araújo_1910, :Emília_Esteves_de_Araújo_1908,
+    :Filomena_Esteves_de_Araújo_1927, :Henrique_Luís_Esteves_de_Araújo_1924, :Maria_Esteves_de_Araújo_1912,
+    :José_Emílio_Esteves_de_Araújo_1916, :Luís_Esteves_de_Araújo_1918, :Sara_Esteves_de_Araújo_1914,
+    :Virgínia_Esteves_de_Araújo_1921, :Rui_Alberto_Araújo_Leite_1948, :Henrique_Marçal_Araújo_Leite_1943,
+    :Maria_Flora_Araújo_Leite_1941, :Ana_Margarida_Ribeiro_Leite_1980, :Teresa_Maria_Ribeiro_Leite_1985,
+    :Henrique_Miguel_Cabrita_de_Araújo_Leite_1971, :Isabel_Maria_Cabrita_de_Araújo_Leite_1971,
+    :José_Carlos_Leite_Ramalho_1967, :Maria_Helena_Leite_Ramalho_1968 .
+
+:Henrique_Luiz_de_Araújo_1867 :eAscendente :Albina_Esteves_de_Araújo_1910, :Emília_Esteves_de_Araújo_1908,
+    :Filomena_Esteves_de_Araújo_1927, :Henrique_Luís_Esteves_de_Araújo_1924, :Maria_Esteves_de_Araújo_1912,
+    :José_Emílio_Esteves_de_Araújo_1916, :Luís_Esteves_de_Araújo_1918, :Sara_Esteves_de_Araújo_1914,
+    :Virgínia_Esteves_de_Araújo_1921, :Rui_Alberto_Araújo_Leite_1948, :Henrique_Marçal_Araújo_Leite_1943,
+    :Maria_Flora_Araújo_Leite_1941, :Ana_Margarida_Ribeiro_Leite_1980, :Teresa_Maria_Ribeiro_Leite_1985,
+    :Henrique_Miguel_Cabrita_de_Araújo_Leite_1971, :Isabel_Maria_Cabrita_de_Araújo_Leite_1971,
+    :José_Carlos_Leite_Ramalho_1967, :Maria_Helena_Leite_Ramalho_1968 .
+
+:Maria_Margarida_Ribeiro_1954 :eAscendente :Ana_Margarida_Ribeiro_Leite_1980, :Teresa_Maria_Ribeiro_Leite_1985 .
+
+:Rui_Alberto_Araújo_Leite_1948 :eAscendente :Ana_Margarida_Ribeiro_Leite_1980, :Teresa_Maria_Ribeiro_Leite_1985 .
+
+:António_da_Silva_Ramalho :eAscendente :Manuel_da_Silva_Ramalho_1866, :Abílio_da_Silva_Ramalho,
+    :Ana_da_Silva_Ramalho, :António_da_Silva_Ramalho_1904, :Arminda_da_Silva_Ramalho,
+    :Ezequiel_da_Silva_Ramalho, :Generosa_da_Silva_Ramalho, :Ilda_dos_Santos_Ramalho_1949,
+    :José_dos_Santos_Ramalho_1942, :Manuel_Carlos_dos_Santos_Ramalho, :Manuel_Fernando_dos_Santos_Ramalho,
+    :Maria_Flora_dos_Santos_Ramalho_, :José_Carlos_Leite_Ramalho_1967, :Maria_Helena_Leite_Ramalho_1968 .
+
+:António_da_Silva_Ramalho_1904 :eAscendente :Ilda_dos_Santos_Ramalho_1949, :José_dos_Santos_Ramalho_1942,
+    :Manuel_Carlos_dos_Santos_Ramalho, :Manuel_Fernando_dos_Santos_Ramalho, :Maria_Flora_dos_Santos_Ramalho_,
+    :José_Carlos_Leite_Ramalho_1967, :Maria_Helena_Leite_Ramalho_1968 .
+
+:Christina_Rosa_Silva_Santos_1879 :eAscendente :Florinda_Alves_dos_Santos, :Maria_Alves_dos_Santos_1906,
+    :Ilda_dos_Santos_Ramalho_1949, :José_dos_Santos_Ramalho_1942, :Manuel_Carlos_dos_Santos_Ramalho,
+    :Manuel_Fernando_dos_Santos_Ramalho, :Maria_Flora_dos_Santos_Ramalho_, :José_Carlos_Leite_Ramalho_1967,
+    :Maria_Helena_Leite_Ramalho_1968 .
+
+:Maria_Gonçalves_de_Azevedo :eAscendente :Custódia_Azevedo_1867, :Abílio_da_Silva_Ramalho,
+    :Ana_da_Silva_Ramalho, :António_da_Silva_Ramalho_1904, :Arminda_da_Silva_Ramalho,
+    :Ezequiel_da_Silva_Ramalho, :Generosa_da_Silva_Ramalho, :Ilda_dos_Santos_Ramalho_1949,
+    :José_dos_Santos_Ramalho_1942, :Manuel_Carlos_dos_Santos_Ramalho, :Manuel_Fernando_dos_Santos_Ramalho,
+    :Maria_Flora_dos_Santos_Ramalho_, :José_Carlos_Leite_Ramalho_1967, :Maria_Helena_Leite_Ramalho_1968 .
+
+:José_Francisco_Ramos_Mouco :eAscendente :Custódia_Azevedo_1867, :Abílio_da_Silva_Ramalho,
+    :Ana_da_Silva_Ramalho, :António_da_Silva_Ramalho_1904, :Arminda_da_Silva_Ramalho,
+    :Ezequiel_da_Silva_Ramalho, :Generosa_da_Silva_Ramalho, :Ilda_dos_Santos_Ramalho_1949,
+    :José_dos_Santos_Ramalho_1942, :Manuel_Carlos_dos_Santos_Ramalho, :Manuel_Fernando_dos_Santos_Ramalho,
+    :Maria_Flora_dos_Santos_Ramalho_, :José_Carlos_Leite_Ramalho_1967, :Maria_Helena_Leite_Ramalho_1968 .
+
+:Flora_Castilho_do_Couto_Leite :eAscendente :Domingos_Couto_Leite, :Gilberto_Couto_Leite,
+    :Helena_Couto_Leite, :Marçal_Aristides_Costa_Leite_1909, :João_Bernardo_Couto_Leite_1916,
+    :Orlando_Couto_Leite, :Rosa_Couto_Leite, :Rui_Alberto_Araújo_Leite_1948, :Henrique_Marçal_Araújo_Leite_1943,
+    :Maria_Flora_Araújo_Leite_1941, :Ana_Margarida_Ribeiro_Leite_1980, :Teresa_Maria_Ribeiro_Leite_1985,
+    :Henrique_Miguel_Cabrita_de_Araújo_Leite_1971, :Isabel_Maria_Cabrita_de_Araújo_Leite_1971,
+    :José_Carlos_Leite_Ramalho_1967, :Maria_Helena_Leite_Ramalho_1968 .
+
+:Marçal_da_Costa_Leite :eAscendente :Domingos_Couto_Leite, :Gilberto_Couto_Leite,
+    :Helena_Couto_Leite, :Marçal_Aristides_Costa_Leite_1909, :João_Bernardo_Couto_Leite_1916,
+    :Orlando_Couto_Leite, :Rosa_Couto_Leite, :Rui_Alberto_Araújo_Leite_1948, :Henrique_Marçal_Araújo_Leite_1943,
+    :Maria_Flora_Araújo_Leite_1941, :Ana_Margarida_Ribeiro_Leite_1980, :Teresa_Maria_Ribeiro_Leite_1985,
+    :Henrique_Miguel_Cabrita_de_Araújo_Leite_1971, :Isabel_Maria_Cabrita_de_Araújo_Leite_1971,
+    :José_Carlos_Leite_Ramalho_1967, :Maria_Helena_Leite_Ramalho_1968 .
+
+:Emília_Esteves :eAscendente :Maria_Araújo_1884, :Albina_Esteves_de_Araújo_1910, :Emília_Esteves_de_Araújo_1908,
+    :Filomena_Esteves_de_Araújo_1927, :Henrique_Luís_Esteves_de_Araújo_1924, :Maria_Esteves_de_Araújo_1912,
+    :José_Emílio_Esteves_de_Araújo_1916, :Luís_Esteves_de_Araújo_1918, :Sara_Esteves_de_Araújo_1914,
+    :Virgínia_Esteves_de_Araújo_1921, :Rui_Alberto_Araújo_Leite_1948, :Henrique_Marçal_Araújo_Leite_1943,
+    :Maria_Flora_Araújo_Leite_1941, :Ana_Margarida_Ribeiro_Leite_1980, :Teresa_Maria_Ribeiro_Leite_1985,
+    :Henrique_Miguel_Cabrita_de_Araújo_Leite_1971, :Isabel_Maria_Cabrita_de_Araújo_Leite_1971,
+    :José_Carlos_Leite_Ramalho_1967, :Maria_Helena_Leite_Ramalho_1968 .
+
+:Jozé_da_Silva_Santos_1879 :eAscendente :Florinda_Alves_dos_Santos, :Maria_Alves_dos_Santos_1906,
+    :Ilda_dos_Santos_Ramalho_1949, :José_dos_Santos_Ramalho_1942, :Manuel_Carlos_dos_Santos_Ramalho,
+    :Manuel_Fernando_dos_Santos_Ramalho, :Maria_Flora_dos_Santos_Ramalho_, :José_Carlos_Leite_Ramalho_1967,
+    :Maria_Helena_Leite_Ramalho_1968 .
+
+:Maria_das_Dores_Fernandes_de_Brito :eAscendente :Henrique_Luiz_de_Araújo_1867, :Albina_Esteves_de_Araújo_1910,
+    :Emília_Esteves_de_Araújo_1908, :Filomena_Esteves_de_Araújo_1927, :Henrique_Luís_Esteves_de_Araújo_1924,
+    :Maria_Esteves_de_Araújo_1912, :José_Emílio_Esteves_de_Araújo_1916, :Luís_Esteves_de_Araújo_1918,
+    :Sara_Esteves_de_Araújo_1914, :Virgínia_Esteves_de_Araújo_1921, :Rui_Alberto_Araújo_Leite_1948,
+    :Henrique_Marçal_Araújo_Leite_1943, :Maria_Flora_Araújo_Leite_1941, :Ana_Margarida_Ribeiro_Leite_1980,
+    :Teresa_Maria_Ribeiro_Leite_1985, :Henrique_Miguel_Cabrita_de_Araújo_Leite_1971, :Isabel_Maria_Cabrita_de_Araújo_Leite_1971,
+    :José_Carlos_Leite_Ramalho_1967, :Maria_Helena_Leite_Ramalho_1968 .
+
+:José_Emílio_de_Araújo :eAscendente :Henrique_Luiz_de_Araújo_1867, :Albina_Esteves_de_Araújo_1910,
+    :Emília_Esteves_de_Araújo_1908, :Filomena_Esteves_de_Araújo_1927, :Henrique_Luís_Esteves_de_Araújo_1924,
+    :Maria_Esteves_de_Araújo_1912, :José_Emílio_Esteves_de_Araújo_1916, :Luís_Esteves_de_Araújo_1918,
+    :Sara_Esteves_de_Araújo_1914, :Virgínia_Esteves_de_Araújo_1921, :Rui_Alberto_Araújo_Leite_1948,
+    :Henrique_Marçal_Araújo_Leite_1943, :Maria_Flora_Araújo_Leite_1941, :Ana_Margarida_Ribeiro_Leite_1980,
+    :Teresa_Maria_Ribeiro_Leite_1985, :Henrique_Miguel_Cabrita_de_Araújo_Leite_1971, :Isabel_Maria_Cabrita_de_Araújo_Leite_1971,
+    :José_Carlos_Leite_Ramalho_1967, :Maria_Helena_Leite_Ramalho_1968 .
+
+:Henrique_Marçal_Araújo_Leite_1943 :eAscendente :Henrique_Miguel_Cabrita_de_Araújo_Leite_1971,
+    :Isabel_Maria_Cabrita_de_Araújo_Leite_1971 .
+
+:Maria_Esteves_de_Araújo_1912 :eAscendente :Rui_Alberto_Araújo_Leite_1948, :Henrique_Marçal_Araújo_Leite_1943,
+    :Maria_Flora_Araújo_Leite_1941, :Ana_Margarida_Ribeiro_Leite_1980, :Teresa_Maria_Ribeiro_Leite_1985,
+    :Henrique_Miguel_Cabrita_de_Araújo_Leite_1971, :Isabel_Maria_Cabrita_de_Araújo_Leite_1971,
+    :José_Carlos_Leite_Ramalho_1967, :Maria_Helena_Leite_Ramalho_1968 .
+
+:Marçal_Aristides_Costa_Leite_1909 :eAscendente :Rui_Alberto_Araújo_Leite_1948, :Henrique_Marçal_Araújo_Leite_1943,
+    :Maria_Flora_Araújo_Leite_1941, :Ana_Margarida_Ribeiro_Leite_1980, :Teresa_Maria_Ribeiro_Leite_1985,
+    :Henrique_Miguel_Cabrita_de_Araújo_Leite_1971, :Isabel_Maria_Cabrita_de_Araújo_Leite_1971,
+    :José_Carlos_Leite_Ramalho_1967, :Maria_Helena_Leite_Ramalho_1968 .
+
+:Maria_Otília_Araújo_Leite_1944 :eAscendente :Henrique_Miguel_Cabrita_de_Araújo_Leite_1971,
+    :Isabel_Maria_Cabrita_de_Araújo_Leite_1971 .
+
+:Maria_Alves_dos_Santos_1906 :eAscendente :Ilda_dos_Santos_Ramalho_1949, :José_dos_Santos_Ramalho_1942,
+    :Manuel_Carlos_dos_Santos_Ramalho, :Manuel_Fernando_dos_Santos_Ramalho, :Maria_Flora_dos_Santos_Ramalho_,
+    :José_Carlos_Leite_Ramalho_1967, :Maria_Helena_Leite_Ramalho_1968 .
+
+:Maria_Flora_Araújo_Leite_1941 :eAscendente :José_Carlos_Leite_Ramalho_1967, :Maria_Helena_Leite_Ramalho_1968 .
+
+:José_dos_Santos_Ramalho_1942 :eAscendente :José_Carlos_Leite_Ramalho_1967, :Maria_Helena_Leite_Ramalho_1968 .
+
+:José_Maria_Esteves :eAscendente :Maria_Araújo_1884, :Albina_Esteves_de_Araújo_1910,
+    :Emília_Esteves_de_Araújo_1908, :Filomena_Esteves_de_Araújo_1927, :Henrique_Luís_Esteves_de_Araújo_1924,
+    :Maria_Esteves_de_Araújo_1912, :José_Emílio_Esteves_de_Araújo_1916, :Luís_Esteves_de_Araújo_1918,
+    :Sara_Esteves_de_Araújo_1914, :Virgínia_Esteves_de_Araújo_1921, :Rui_Alberto_Araújo_Leite_1948,
+    :Henrique_Marçal_Araújo_Leite_1943, :Maria_Flora_Araújo_Leite_1941, :Ana_Margarida_Ribeiro_Leite_1980,
+    :Teresa_Maria_Ribeiro_Leite_1985, :Henrique_Miguel_Cabrita_de_Araújo_Leite_1971, :Isabel_Maria_Cabrita_de_Araújo_Leite_1971,
+    :José_Carlos_Leite_Ramalho_1967, :Maria_Helena_Leite_Ramalho_1968 .
+
+:Maria_Dias_dos_Reis :eAscendente :Manuel_da_Silva_Ramalho_1866, :Abílio_da_Silva_Ramalho,
+    :Ana_da_Silva_Ramalho, :António_da_Silva_Ramalho_1904, :Arminda_da_Silva_Ramalho,
+    :Ezequiel_da_Silva_Ramalho, :Generosa_da_Silva_Ramalho, :Ilda_dos_Santos_Ramalho_1949,
+    :José_dos_Santos_Ramalho_1942, :Manuel_Carlos_dos_Santos_Ramalho, :Manuel_Fernando_dos_Santos_Ramalho,
+    :Maria_Flora_dos_Santos_Ramalho_, :José_Carlos_Leite_Ramalho_1967, :Maria_Helena_Leite_Ramalho_1968 .
